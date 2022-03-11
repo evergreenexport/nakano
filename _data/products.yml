@@ -1,0 +1,72 @@
+- name: junmai-shu
+  category: sake
+  img-name: junmai-shu.png
+  tag-name: junmai-shu
+  url: junmai-shu
+- name: namachozo
+  category: sake
+  img-name: namachozo.png
+  tag-name: namachozo
+  url: namachozo
+- name: gohyakumangoku
+  category: sake
+  img-name: 500mangoku.png
+  tag-name: 500mangoku
+  url: gohyakumangoku
+- name: ginjo
+  category: sake
+  img-name: ginjo.png
+  tag-name: ginjo
+  url: ginjo
+- name: ultra
+  category: sake
+  img-name: ultra-white.png
+  tag-name: ultra-white
+  url: ultra
+
+- name: umeshu
+  category: umeshu
+  img-name: umeshu.png
+  tag-name: umeshu
+  url: umeshu
+- name: yuzu umeshu
+  category: umeshu
+  img-name: yuzu.png
+  tag-name: yuzu
+  url: yuzu-umeshu
+- name: honey umeshu
+  category: umeshu
+  img-name: honey.png
+  tag-name: honey
+  url: honey-umeshu
+- name: ume liqueur
+  category: umeshu
+  img-name: beninanko.png
+  tag-name: beninanko
+  url: ume-liqueur
+- name: umeshu with whole ume 160ml
+  category: umeshu
+  img-name: umeshu_mi_iri_160ml.png
+  tag-name: mi-iri-160
+  url: umeshu-whole-ume-160ml
+- name: umeshu with whole ume 720ml
+  category: umeshu
+  img-name: umeshu_mi_iri_720ml.png
+  tag-name: mi-iri-720
+  url: umeshu-whole-ume-720ml
+
+- name: kozue
+  category: spirits
+  img-name: kozue.png
+  tag-name: kozue
+  url: kozue
+- name: kodachi
+  category: spirits
+  img-name: kodachi.png
+  tag-name: kodachi
+  url: kodachi
+- name: kayuki
+  category: spirits
+  img-name: kayuki.png
+  tag-name: kayuki
+  url: kayuki
