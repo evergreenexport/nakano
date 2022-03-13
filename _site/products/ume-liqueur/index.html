@@ -36,15 +36,19 @@
                 <h5 style="color: purple; margin-bottom: 0.75em;">Welcome to Nakano NZ</h5>
                 <p>You need to be over 18 years old to view Nakano's product range.</p>
                 <p style="margin-bottom: 1em;">Please confirm your age...</p>
-                <p id="u18Error" style="color: red; display: none;">Unfortunately you need to be 18+ to visit this website.</p>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <a href="" id="over18" class="d-flex over-18-button">I am aged 18+</a>
+                <a id="over18" class="d-flex over-18-button">I am aged 18+</a>
               </div>
               <div class="col">
-                <a href="" id="under18" class="d-flex over-18-button">I am under 18</a>
+                <a id="under18" class="d-flex over-18-button">I am under 18</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p id="u18Error" style="color: red; display: none;">Unfortunately you need to be 18+ to visit this website.</p>
               </div>
             </div>
           </div>
@@ -58,7 +62,7 @@
           <div class="d-flex flex-row justify-content-between desktop-header align-items-end">
 
             <div class="" id="logo">
-              LOGO
+              <a href="/">LOGO</a>
             </div>
 
             <!-- desktop nav -->
@@ -90,64 +94,77 @@
       </div>
 
 
-      <div class="row">
-        <div class="col product-dir">
-            <p>
-              <a href="/products/">products</a> >
-              <a href="/products/#umeshu">umeshu</a> >
-              ume liqueur
-            </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>Ume liqueur 720ml</h3>
-        </div>
-      </div>
-      <div class="row">
+<div class="row">
+  <div class="col product-dir">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/products/">products</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/products/#umeshu">umeshu</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">ume liqueur</li>
+      </ol>
+    </nav>
+  </div>
+</div>
 
-        <!-- LHS -->
-        <div class="col-12 col-md-8 col-lg-6 order-2">
-          <div class="row">
-            <div class="col blurb">
-              <p><p>An extra premium ume (plum) liqueur, handcrafted using only crimson ripened nanko ume from Wakayama, which have been hand-selected one-by-one and soaked in spirits on the same day.</p>
+<div class="row">
+  <div class="col">
+    <h3>Ume liqueur 720ml</h3>
+  </div>
+</div>
+
+<div class="row">
+
+  <!-- LHS -->
+  <div class="col-12 col-md-8 col-lg-6 order-2">
+    <div class="row">
+      <div class="col blurb">
+        <h6>Details:</h6>
+        <p><p>An extra premium ume (plum) liqueur, handcrafted using only crimson ripened nanko ume from Wakayama, which have been hand-selected one-by-one and soaked in spirits on the same day.</p>
 
 <p>The producer uses one-and-a-half times the plums of Nakano’s signature umeshu, producing a liqueur with accentuated richness and flavour.</p>
-
-<p>720ml, 20% alc/vol.</p>
 </p>
-            </div>
-          </div>
-
-        
-        
-          <div class="row">
-            <div class="col sub-heading">
-              <h6>Awards:</h6>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col d-flex justify-content-start" style="background-color: white;">
-              <!-- <img width="56px" height="56px" src="static/junmai-shu-medal.svg" alt="gold medal"
-              class="" id="medal-img"> -->
-                <p>- Grand Prix Winner at the inaugural Osaka Tenjin Umeshu Competition (Japan’s biggest umeshu competition).</p>
-            </div>
-          </div>
-        
-        </div>
-        <!-- end LHS container -->
-
-        <!-- RHS -->
-        <div class="col d-flex align-items-end justify-content-center order-md-2">
-          <div class="d-flex">
-            
-            <img width="64px" height="64px" src="../../static/images/medals/" alt="gold medal"
-            class="mt-auto" id="medal-img">
-            
-            <img src="../../../static/images/bottle-images/beninanko.png" alt="" class="pl-0 ml-0" id="product-img">
-          </div>
-        </div>
       </div>
+    </div>
+    <div class="row">
+        <div class="col">
+          <p>720ml, 20% alc/vol.</p>
+        </div>
+    </div>
+
+  
+  
+    <div class="row">
+      <div class="col sub-heading">
+        <h6>Awards:</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-start" style="background-color: white;">
+        <!-- <img width="56px" height="56px" src="static/junmai-shu-medal.svg" alt="gold medal"
+        class="" id="medal-img"> -->
+          <p>- Grand Prix Winner at the inaugural Osaka Tenjin Umeshu Competition (Japan’s biggest umeshu competition).</p>
+      </div>
+    </div>
+  
+
+  </div>
+  <!-- end LHS container -->
+
+  <!-- RHS -->
+  <div class="col d-flex align-items-end justify-content-center order-md-2">
+    <div class="d-flex">
+      
+      <img width="64px" height="64px" src="../../static/images/medals/" alt="gold medal"
+      class="mt-auto" id="medal-img">
+      
+      <img src="../../../static/images/bottle-images/beninanko.png" alt="" class="pl-0 ml-0" id="product-img">
+    </div>
+  </div>
+</div>
 
 
 

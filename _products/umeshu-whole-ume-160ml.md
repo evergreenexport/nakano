@@ -14,8 +14,8 @@ warmTemp: null
 hotTemp: null
 hasAwards: false
 awardName: null
+volume: 160ml
+alcoholContent: 14%
 ---
 
 Nakano umeshu, served with whole <i>Nanko ume<i> plums.  
-
-160ml, 14% alc/vol.

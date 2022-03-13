@@ -14,8 +14,8 @@ warmTemp: null
 hotTemp: null
 hasAwards: false
 awardName: null
+volume: 720ml
+alcoholContent: 12%
 ---
 
 Nakano umeshu, blended with elegant honey.  
-
-720ml, 12% alc/vol.

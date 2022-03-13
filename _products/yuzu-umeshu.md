@@ -14,8 +14,8 @@ warmTemp: null
 hotTemp: null
 hasAwards: true
 awardName: Gold at the Lyon Spirits Competition
+volume: 720ml
+alcoholContent: 12%
 ---
 
 A unique blend of refreshing yuzu juice (Japanese citrus), beautifully blended with Nakano umeshu.
-
-720ml, 12% alc/vol.

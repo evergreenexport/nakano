@@ -14,6 +14,8 @@ warmTemp: None
 hotTemp: None
 hasAwards: false
 awardName: null
+volume: 720ml
+alcoholContent: 16%
 ---
 
 Originally commissioned for the exclusive Kitcho (吉兆) restaurant, which many critics consider as the icon of Japanese haute cuisine.  
@@ -21,5 +23,3 @@ Originally commissioned for the exclusive Kitcho (吉兆) restaurant, which many
 Brewed with yamada-nishiki and omachi rice. Strong-bodied, full of umami, with a slight firmness. cThe sake is raw-stored at -5°C for at least 3 years to embed its ripeness, giving a long and crisp finish.  
 
 Serve chilled.  
-
-720ml, 16% alc/vol

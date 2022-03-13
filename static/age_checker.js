@@ -17,6 +17,7 @@ noButton.addEventListener('click', function(){
     console.log("no");
     alert('you are under 18');
     $("#u18Error").css("display", "block")
+    window.location.replace('https://www.google.com');
 })
 
 

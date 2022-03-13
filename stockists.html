@@ -4,12 +4,31 @@ title: Stockists
 ---
 
 <div class="row">
-  <div class="col">
+  <div class="col-lg-1">
+
+  </div>
+  <div class="col-lg-10">
     <h3>Stockists</h3>
-    <p>Available at</p>
-    <ul>
-      <li>Liquorland</li>
-      <li>Moore Wilson's</li>
-    </ul>
+
+    <p>We recommend calling ahead or checking on the retailer's website, to make
+      sure they have stock of the product you're looking for.</p>
+
+    {% for item in site.data.stockists.regions %}
+        <h5>{{ item.region }}</h5>
+          <ul>
+            {% for store in item.stores %}
+              <li><a href="{{ store.url }}" target="_blank">{{ store.name }}</a>
+              {% if store.extraText %}
+                {{ store.extraText }}
+              {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+      {% endfor %}
+      <div class="col-lg-1">
+
+      </div>
+
+
   </div>
 </div>

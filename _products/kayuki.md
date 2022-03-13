@@ -14,8 +14,8 @@ warmTemp: null
 hotTemp: null
 hasAwards: true
 awardName: Gold at the Lyon Spirits Competition
+volume: 700ml
+alcoholContent: 45%
 ---
 
 Crafted using umeshu from Wakayama Nanko ume (plums) as the base, the umeshu is then vacuum-distilled to produce a fine spirit that retains the ume’s distinctive aroma.  
-
-700ml, 45% alc/vol.

@@ -36,15 +36,19 @@
                 <h5 style="color: purple; margin-bottom: 0.75em;">Welcome to Nakano NZ</h5>
                 <p>You need to be over 18 years old to view Nakano's product range.</p>
                 <p style="margin-bottom: 1em;">Please confirm your age...</p>
-                <p id="u18Error" style="color: red; display: none;">Unfortunately you need to be 18+ to visit this website.</p>
               </div>
             </div>
             <div class="row">
               <div class="col">
-                <a href="" id="over18" class="d-flex over-18-button">I am aged 18+</a>
+                <a id="over18" class="d-flex over-18-button">I am aged 18+</a>
               </div>
               <div class="col">
-                <a href="" id="under18" class="d-flex over-18-button">I am under 18</a>
+                <a id="under18" class="d-flex over-18-button">I am under 18</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p id="u18Error" style="color: red; display: none;">Unfortunately you need to be 18+ to visit this website.</p>
               </div>
             </div>
           </div>
@@ -58,7 +62,7 @@
           <div class="d-flex flex-row justify-content-between desktop-header align-items-end">
 
             <div class="" id="logo">
-              LOGO
+              <a href="/">LOGO</a>
             </div>
 
             <!-- desktop nav -->
@@ -90,48 +94,61 @@
       </div>
 
 
-      <div class="row">
-        <div class="col product-dir">
-            <p>
-              <a href="/products/">products</a> >
-              <a href="/products/#spirits">spirits</a> >
-              kodachi
-            </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h3>Kodachi gin 700ml</h3>
-        </div>
-      </div>
-      <div class="row">
+<div class="row">
+  <div class="col product-dir">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/products/">products</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/products/#spirits">spirits</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">kodachi</li>
+      </ol>
+    </nav>
+  </div>
+</div>
 
-        <!-- LHS -->
-        <div class="col-12 col-md-8 col-lg-6 order-2">
-          <div class="row">
-            <div class="col blurb">
-              <p><p>Handcrafted in small batches using Japanese botanicals: <i>sugi</i> (Japanese redwood), <i>hinoki</i> (Japanese cypress), lemon peel, unshu mandarin peel, and sansho pepper. The <i>sugi</i> and <i>hinoki</i> evoke the spectacular forests of the nearby <i>Kumano</i> pilgrimage route.</p>
+<div class="row">
+  <div class="col">
+    <h3>Kodachi gin 700ml</h3>
+  </div>
+</div>
+
+<div class="row">
+
+  <!-- LHS -->
+  <div class="col-12 col-md-8 col-lg-6 order-2">
+    <div class="row">
+      <div class="col blurb">
+        <h6>Details:</h6>
+        <p><p>Handcrafted in small batches using Japanese botanicals: <i>sugi</i> (Japanese redwood), <i>hinoki</i> (Japanese cypress), lemon peel, unshu mandarin peel, and sansho pepper. The <i>sugi</i> and <i>hinoki</i> evoke the spectacular forests of the nearby <i>Kumano</i> pilgrimage route.</p>
 
 <p>The unique combination of sugi and hinoki combined with juniper results in a deeper aroma, balanced with citrus, while the sansho pepper notes provide some sharpness.</p>
-
-<p>700ml, 47% alc/vol.</p>
 </p>
-            </div>
-          </div>
-
-        
-        
-        </div>
-        <!-- end LHS container -->
-
-        <!-- RHS -->
-        <div class="col d-flex align-items-end justify-content-center order-md-2">
-          <div class="d-flex">
-            
-            <img src="../../../static/images/bottle-images/kodachi.png" alt="" class="pl-0 ml-0" id="product-img">
-          </div>
-        </div>
       </div>
+    </div>
+    <div class="row">
+        <div class="col">
+          <p>700ml, 47% alc/vol.</p>
+        </div>
+    </div>
+
+  
+  
+
+  </div>
+  <!-- end LHS container -->
+
+  <!-- RHS -->
+  <div class="col d-flex align-items-end justify-content-center order-md-2">
+    <div class="d-flex">
+      
+      <img src="../../../static/images/bottle-images/kodachi.png" alt="" class="pl-0 ml-0" id="product-img">
+    </div>
+  </div>
+</div>
 
 
 

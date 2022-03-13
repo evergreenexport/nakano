@@ -1,0 +1,72 @@
+regions:
+
+- region: North Shore
+  stores:
+    - name: Liquorland Northcross (Brown's Bay)
+      url: https://www.liquorland.co.nz/stores/northcross-browns-bay/
+
+    - name: Liquorland Albany
+      url: https://www.liquorland.co.nz/stores/albany/
+
+- region: Auckland City
+  stores:
+    - name: Caro's Grey Lynn
+      url: https://www.caros.co.nz/
+
+    - name: Liquorland Newmarket
+      url: https://www.liquorland.co.nz/stores/newmarket/
+
+    - name: Liquorland Stonefields
+      url: https://www.liquorland.co.nz/stores/stonefields/
+
+
+- region: New Plymouth
+  stores:
+    - name: Liquorland Fitzroy
+      url: https://www.liquorland.co.nz/stores/fitzroy/
+
+    - name: Liquorland Courtenay Street
+      url: https://www.liquorland.co.nz/stores/courtenay-street/
+
+
+- region: Hawke's Bay
+  stores:
+    - name: Advintage
+      url: https://www.advintage.co.nz/
+
+- region: Palmerston North
+  stores:
+    - name: Liquorland Albert Street
+      url: https://www.liquorland.co.nz/stores/albert-street/
+
+    - name: Liquorland Pioneer Highway
+      url: https://www.liquorland.co.nz/stores/pioneer-highway/
+
+
+- region: Wellington
+  stores:
+    - name: Moore Wilson's Tory Street
+      url: https://moorewilsons.co.nz/wellington
+
+    - name: Moore Wilson's Porirua
+      url: https://moorewilsons.co.nz/porirua
+
+
+- region: Christchurch
+  stores:
+    - name: Liquorland Blenheim Road
+      url: https://www.liquorland.co.nz/stores/blenheim-road/
+
+    - name: Liquorland Riccarton
+      url: https://www.liquorland.co.nz/stores/riccarton/
+
+    - name: Liquorland Church Corner
+      url: https://www.liquorland.co.nz/stores/church-corner/
+
+    - name: Vino Fino, Durham Street South
+      url: https://www.vinofino.co.nz/
+
+# - region: Dunedin
+#   stores:
+#     - name: Liquorland Meenans
+#       url: https://www.liquorland.co.nz/

@@ -14,6 +14,8 @@ warmTemp: ~ 40°
 hotTemp: null
 hasAwards: false
 awardName: null
+volume: 720ml
+alcoholContent: 15%
 ---
 
 This junmai-shu is brewed using the same dewasanzan and yamada-nishiki rice grains as Nakano’s signature junmai-shu, which gives the sake the same delicate balance of umami, tartness and fruity notes.  
@@ -21,5 +23,3 @@ This junmai-shu is brewed using the same dewasanzan and yamada-nishiki rice grai
 The sake is then raw-stored (this is the namachozōstyle, as sake is usually pasteurised first), for an extra crisp and refreshing finish.  
 
 From Nakano’s multi-award-winning Kinokuniya Bunzaemon series.  
-
-Serve chilled or warm.

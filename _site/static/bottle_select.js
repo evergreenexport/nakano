@@ -29,7 +29,6 @@ function getProductName(itemId) {
 }
 
 
-
 for (var i = 0; i < bottles.length; i++) {
     bottles[i].addEventListener('mouseover', highlightLink, false);
     bottles[i].addEventListener('mouseout', unHighlightLink, false);
