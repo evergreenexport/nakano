@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row mt-0">
   <div class="col product-dir">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -18,150 +18,51 @@ layout: default
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-2">
   <div class="col">
     <h3>{{ page.header }}</h3>
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
 
-  <!-- LHS -->
-  <div class="col-12 col-md-8 col-lg-6 order-2">
+  <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-4 order-2 order-md-1">
+  <!-- <div class="col-12 col-md-8 col-lg-6 order-2 blurb"> -->
     <div class="row">
-      <div class="col blurb">
-        <h6>Details:</h6>
-        <p>{{ page.content }}</p>
+      <div class="col nudge" style="">
+        {{ page.content }}
+
+        {% if page.hasAwards %}
+          Awards:
+          <ul>
+            <li>{{ page.awardName }}</li>
+          </ul>
+        {% endif %}
       </div>
     </div>
-    <div class="row">
-        <div class="col">
-          <p>{{ page.volume }}, {{ page.alcoholContent }} alc/vol.</p>
-        </div>
-    </div>
-
-  {% if page.productType == 'sake' %}
-    <div class="row">
-      <div class="col">
-        <h6>Sake profile:</h6>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-xl-10 col-xxl-12">
-        <!-- smooth <-|--|-|-> dry -->
-        <div class="row sake-profile">
-          <div class="col-4 col-sm-3 text-end">
-            dry
-          </div>
-          <div class="col-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3 scales">
-            <img src="../../static/images/scales/smooth-dry/{{ page.smoothDryImage }}" class="img-fluid" alt="">
-          </div>
-          <div class="col">
-            smooth
-          </div>
-        </div>
-        <!-- end smooth-dry -->
-        <!-- light-bodied <-|--|-|-> full-bodied -->
-        <div class="row sake-profile">
-          <div class="col-4 col-sm-3 col-xxl-3 text-end">
-            light-bodied
-          </div>
-          <div class="col-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3 scales">
-            <img src="../../static/images/scales/light-bodied-full-bodied/{{ page.bodyImage }}" class="img-fluid" alt="">
-          </div>
-          <div class="col">
-            full-bodied
-          </div>
-        </div>
-        <!-- end sake body -->
-        <!-- serving temp -->
-        <div class="row sake-profile">
-          <div class="col-4 col-sm-3 text-end">
-            serve
-          </div>
-          {% if page.serveHot %}
-          <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-4 recommended-temp">
-          {% else %}
-          <div class="col-8 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-4 recommended-temp">
-          {% endif %}
-            <div class="row">
-              <div class="col chilled">
-                {{ page.chilledTemp }}
-              </div>
-              {% if page.serveWarm %}
-              <div class="col warm">
-                {{ page.warmTemp }}
-              </div>
-              {% else %}
-              <div class="col">
-              </div>
-              {% endif %}
-              {% if page.serveHot %}
-              <div class="col hot">
-                {{ page.hotTemp }}
-              </div>
-              {% else %}
-              <div class="col">
-              </div>
-              {% endif %}
-            </div>
-            <div class="row">
-              <div class="col">
-                chilled
-              </div>
-              {% if page.serveWarm %}
-              <div class="col">
-                warm
-              </div>
-              {% else %}
-              <div class="col">
-              </div>
-              {% endif %}
-              {% if page.serveHot %}
-              <div class="col">
-                hot
-              </div>
-              {% else %}
-              <div class="col">
-              </div>
-              {% endif %}
-            </div>
-          </div>
-          <div class="col">
-          </div>
-        </div>
-        <!-- end serving temp -->
+    {% if page.productType == 'sake' %}
+    <div class="row sake-profile-nudge">
+      <div class="col-12 col-sm-12 col-md-11 col-lg-11" style="">
+      {% include sake_insert.html %}
       </div>
       <div class="col">
       </div>
     </div>
-  {% endif %}
-  {% if page.hasAwards %}
-    <div class="row">
-      <div class="col sub-heading">
-        <h6>Awards:</h6>
+    {% endif %}
+    <div class="row" style="">
+      <div class="col">
+        <p style="font-size: 0.75em;">{{ page.volume }}, {{ page.alcoholContent }} alc/vol.</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col d-flex justify-content-start" style="background-color: white;">
-        <!-- <img width="56px" height="56px" src="static/junmai-shu-medal.svg" alt="gold medal"
-        class="" id="medal-img"> -->
-          <p>- {{ page.awardName }}</p>
-      </div>
-    </div>
-  {% endif %}
+  </div>
+
+  <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center order-1 order-md-2"
+   style="">
+    <img src="../../../static/images/bottle-images/{{ page.productImage }}"
+     alt="{{ page.image-alt }}" class="pl-0 ml-0" id="product-img">
+  </div>
+  <div class="col order-3" style="">
 
   </div>
-  <!-- end LHS container -->
 
-  <!-- RHS -->
-  <div class="col d-flex align-items-end justify-content-center order-md-2">
-    <div class="d-flex">
-      {% if page.hasAwards %}
-      <img width="64px" height="64px" src="../../static/images/medals/{{ page.medalImage }}" alt="gold medal"
-      class="mt-auto" id="medal-img">
-      {% endif %}
-      <img src="../../../static/images/bottle-images/{{ page.productImage }}" alt="{{ page.image-alt }}" class="pl-0 ml-0" id="product-img">
-    </div>
-  </div>
 </div>

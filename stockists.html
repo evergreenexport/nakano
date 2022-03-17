@@ -4,15 +4,11 @@ title: Stockists
 ---
 
 <div class="row">
-  <div class="col-lg-1">
-
-  </div>
-  <div class="col-lg-10">
+  <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
     <h3>Stockists</h3>
 
     <p>We recommend calling ahead or checking on the retailer's website, to make
       sure they have stock of the product you're looking for.</p>
-
     {% for item in site.data.stockists.regions %}
         <h5>{{ item.region }}</h5>
           <ul>
@@ -25,9 +21,9 @@ title: Stockists
             {% endfor %}
           </ul>
       {% endfor %}
-      <div class="col-lg-1">
+    <div class="col">
 
-      </div>
+    </div>
 
 
   </div>
