@@ -6,12 +6,16 @@ title: Stockists
 <div class="row">
   <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
     <h1>Stockists</h1>
-      <p style="">
-        We recommend calling ahead or checking on the retailer's website, to make
-        sure they have stock of the product you're looking for.
-      </p>
+      <div class="paras">
+        <p style="padding-bottom: 1rem;">
+          We recommend calling ahead or checking on the retailer's website, to make
+          sure they have stock of the product you're looking for.
+        </p>
+      </div>
+      <div class="paras-spacer"></div>
     {% for item in site.data.stockists.regions %}
       <h5 class="">{{ item.region }}</h5>
+      <div class="stockist-list-nudge">
         <ul>
           {% for store in item.stores %}
             <li class="stockist"><a href="{{ store.url }}" target="_blank">{{ store.name }}</a>
@@ -21,6 +25,7 @@ title: Stockists
             </li>
           {% endfor %}
         </ul>
+      </div>
     {% endfor %}
   </div>
   <div class="col">

@@ -1,7 +1,87 @@
+h3{
+  padding-bottom: 2rem;
+}
+
+.btl-img{
+  margin-top: 1.0rem;
+  padding-bottom: 2.0rem;
+}
+
+
+#product-img{
+  max-height: 320px !important;
+  z-index: 0;
+}
+
+#medal-img{
+  /* padding-right: -20px; */
+  margin-right: -0.75rem;
+  margin-bottom: 0.75rem;
+  /* margin-top: 1em; */
+  z-index: 1;
+}
+
+
+.awards-container{
+  margin-top: 1.36rem;
+  padding-bottom: 0.14rem;
+}
+
+.awards-container li{
+  /* line-height: 1.25rem !important; */
+}
+
+.profile-pre-header{
+  margin-top: 0.36rem;
+  padding-bottom: 0.14rem;
+}
+
+.sake-profile{
+  margin-top: 0.4rem !important;
+  padding-bottom: 0.6rem !important;
+  font-variant: small-caps;
+  font-size: 0.85rem;
+  line-height: 1.0rem;
+  /* background-color: pink; */
+  /* opacity: 0.5; */
+}
+
+
+.sake-scales-nudge-top{
+  margin-top: 0.17rem !important;
+}
+
+.sake-scales-nudge-bottom{
+  padding-bottom: 1.33rem !important;
+}
+
+.recommended-temp{
+  line-height: 1.0rem;
+  text-align: center;
+}
+
+.chilled{
+  background-color: #5BB1F750;
+}
+
+.warm{
+  background-color: #F8717150;
+}
+
+.hot{
+  background-color: #F3A7A7;
+}
+
+.scales{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 .alc-content{
-    font-size: 0.75em;
-    margin-top: 1.18rem;
-    padding-bottom: 0.32rem; 
+  font-size: 0.75em;
+  margin-top: 1.18rem;
+  padding-bottom: 0.32rem;
 }
 
 @media (min-width: 576px) {
@@ -10,7 +90,7 @@
 @media (min-width: 768px) {
   .btl-img{
     margin-top: 3rem;
-    margin-bottom: 0rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -19,21 +99,28 @@
     padding-bottom: 1rem;
   }
   h3{
-    margin-top: 0rem;
-    padding-bottom: 0rem;
+    margin-top: 0.45rem;
+    padding-bottom: 0.55rem;
   }
   .btl-img{
     margin-top: 3rem;
     padding-bottom: 1.0rem;
   }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-
+  h3{
+    margin-top: 0.45rem;
+    padding-bottom: 2.05rem;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
+  h3{
+    margin-top: 0.45rem;
+    padding-bottom: 1.05rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -41,8 +128,12 @@
     padding-bottom: 1rem;
   }
   h3{
-    margin-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    margin-top: 0.15rem;
+    padding-bottom: 0.35rem;
+  }
+  .btl-img{
+    margin-top: 1.5rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -53,7 +144,11 @@
     padding-bottom: 1rem;
   }
   h3{
-    margin-top: 2rem;
+    margin-top: 2.15rem;
+    padding-bottom: 1.35rem;
+  }
+  .btl-img{
+    margin-top: 1rem;
     padding-bottom: 0rem;
   }
 }
