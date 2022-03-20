@@ -212,7 +212,6 @@ li{
 }
 
 #logo a{
-  /* color: skyblue; */
   color: #0B205F;
   font-size: 0.85rem !important;
   line-height: 1rem !important;
@@ -307,9 +306,9 @@ li{
   display: inline-block;
   font-weight: 400;
   line-height: 2;
-  color: #000000;
-  background-color: #FFFFFF;
-  border-color: #000000;
+  color: black;
+  background-color: white;
+  border-color: #0B205F;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -318,7 +317,6 @@ li{
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: transparent;
   border: 1px solid black;
   padding: .5rem 1.5rem;
   font-size: 1rem;

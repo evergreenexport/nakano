@@ -1,6 +1,12 @@
-#ageCheckContainer h5{
+#ageCheckContainer{
+
+}
+
+#ageCheckContainer h4{
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+  color: black; 
+  /* margin-bottom: 0.75em; */
 }
 
 #ageCheckContainer p, a{
@@ -18,7 +24,7 @@
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  opacity: 0.8;
+  opacity: 0.85;
   /* transition: opacity, 0s; */
 }
 
@@ -51,7 +57,7 @@
 
 .over-18-button:hover{
   text-decoration: none !important;
-  color: white;
+  color: white !important;
   background-color: black !important;
   border: 1px solid white;
 }
@@ -76,6 +82,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     outline: 0;
+
 }
 
 .modal-dialog1 {
@@ -94,13 +101,12 @@
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, .2);
-  /* border-radius: .3rem; */
   outline: 0;
-  /* padding: 1rem 1rem; */
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+
 }
 
 @media (min-width:576px) {
@@ -108,3 +114,4 @@
     max-width: 500px;
     margin: 1.75rem auto
   }
+}
