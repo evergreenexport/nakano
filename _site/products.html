@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -11,6 +10,8 @@
       crossorigin="anonymous">
     <link rel="stylesheet" href="../../static/styles.css">
     <link rel="stylesheet" href="../../static/pop-up-styles.css">
+    
+
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,17 +60,17 @@
     <div class="container d-flex flex-column">
       <div class="row">
         <div class="col">
-          <div class="d-flex flex-row justify-content-between desktop-header align-items-end">
+          <div class="d-flex flex-row justify-content-between desktop-header">
 
-            <div class="" id="logo" style="">
-              <a href="/">LOGO</a>
+            <div id="logo" href="/" style="">
+              <a href="/">nakano<br>beverages<span class="tighten"> </span>nz</a>
             </div>
 
             <!-- desktop nav -->
             <div class="" id="desktop-nav" style="display: none;">
               <!-- <a href="/">home</a> -->
-              <a href="/stockists">stockists</a>
               <a href="/products">products</a>
+              <a href="/stockists">stockists</a>
               <a href="/contact">contact</a>
             </div>
 
@@ -84,8 +85,8 @@
               </div>
               <div id="mobile-nav-items">
                 <!-- <a href="/">home</a><br> -->
-                <a href="/stockists">stockists</a><br>
                 <a href="/products">products</a><br>
+                <a href="/stockists">stockists</a><br>
                 <a href="/contact">contact</a>
               </div>
             </div>
@@ -96,61 +97,71 @@
 
       <div class="row">
         <div class="col">
-          <h3>Products</h3>
+          <h1>Products</h1>
         </div>
       </div>
 
       
       <div class="row product-header">
         <div class="col">
-          <h4 id="sake">Sake</h4>
+          <h4 id="sake" class="h4-nudge">Sake</h4>
         </div>
       </div>
 
       <div class="row product-selection">
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/junmai-shu" id="junmai-shu-bottle" class="bottle">
             <img src="../static/images/bottle-images/junmai-shu.png" alt="junmai shu sake bottle">
           </a>
           <a href="/products/junmai-shu" id="junmai-shu-link" class="product-name">
-            <p>junmai-shu</p>
+            <div class="">
+              junmai-shu
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/namachozo" id="namachozo-bottle" class="bottle">
             <img src="../static/images/bottle-images/namachozo.png" alt="namachozo sake bottle">
           </a>
           <a href="/products/namachozo" id="namachozo-link" class="product-name">
-            <p>namachozo</p>
+            <div class="">
+              namachozo
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/gohyakumangoku" id="500mangoku-bottle" class="bottle">
             <img src="../static/images/bottle-images/500mangoku.png" alt="gohyaku mangoku sake bottle">
           </a>
           <a href="/products/gohyakumangoku" id="500mangoku-link" class="product-name">
-            <p>gohyakumangoku</p>
+            <div class="">
+              gohyakumangoku
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/ginjo" id="ginjo-bottle" class="bottle">
             <img src="../static/images/bottle-images/ginjo.png" alt="ginjo sake bottle">
           </a>
           <a href="/products/ginjo" id="ginjo-link" class="product-name">
-            <p>ginjo</p>
+            <div class="">
+              ginjo
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/ultra" id="ultra-white-bottle" class="bottle">
             <img src="../static/images/bottle-images/ultra-white.png" alt="ultra ginjo sake bottle">
           </a>
           <a href="/products/ultra" id="ultra-white-link" class="product-name">
-            <p>ultra</p>
+            <div class="">
+              ultra
+            </div>
           </a>
         </div>
         
@@ -158,63 +169,75 @@
       
       <div class="row product-header">
         <div class="col">
-          <h4 id="umeshu">Umeshu (plum wine)</h4>
+          <h4 id="umeshu" class="h4-nudge">Umeshu (plum wine)</h4>
         </div>
       </div>
 
       <div class="row product-selection">
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/umeshu" id="umeshu-bottle" class="bottle">
             <img src="../static/images/bottle-images/umeshu.png" alt="Nakano umeshu plum wine bottle">
           </a>
           <a href="/products/umeshu" id="umeshu-link" class="product-name">
-            <p>umeshu</p>
+            <div class="">
+              umeshu
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/yuzu-umeshu" id="yuzu-bottle" class="bottle">
             <img src="../static/images/bottle-images/yuzu.png" alt="yuzu umeshu bottle">
           </a>
           <a href="/products/yuzu-umeshu" id="yuzu-link" class="product-name">
-            <p>yuzu umeshu</p>
+            <div class="">
+              yuzu umeshu
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/honey-umeshu" id="honey-bottle" class="bottle">
             <img src="../static/images/bottle-images/honey.png" alt="honey umeshu bottle">
           </a>
           <a href="/products/honey-umeshu" id="honey-link" class="product-name">
-            <p>honey umeshu</p>
+            <div class="">
+              honey umeshu
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/ume-liqueur" id="beninanko-bottle" class="bottle">
             <img src="../static/images/bottle-images/beninanko.png" alt="Nakano premium ume liqueur bottle">
           </a>
           <a href="/products/ume-liqueur" id="beninanko-link" class="product-name">
-            <p>ume liqueur</p>
+            <div class="">
+              ume liqueur
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/umeshu-whole-ume-160ml" id="mi-iri-160-bottle" class="bottle">
             <img src="../static/images/bottle-images/umeshu_mi_iri_160ml.png" alt="umeshu cup with whole ume 160ml">
           </a>
           <a href="/products/umeshu-whole-ume-160ml" id="mi-iri-160-link" class="product-name">
-            <p>umeshu with whole ume 160ml</p>
+            <div class="">
+              umeshu with whole ume 160ml
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/umeshu-whole-ume-720ml" id="mi-iri-720-bottle" class="bottle">
             <img src="../static/images/bottle-images/umeshu_mi_iri_720ml.png" alt="umeshu jar with whole ume 720ml">
           </a>
           <a href="/products/umeshu-whole-ume-720ml" id="mi-iri-720-link" class="product-name">
-            <p>umeshu with whole ume 720ml</p>
+            <div class="">
+              umeshu with whole ume 720ml
+            </div>
           </a>
         </div>
         
@@ -222,36 +245,42 @@
       
       <div class="row product-header">
         <div class="col">
-          <h4 id="spirits">Spirits</h4>
+          <h4 id="spirits" class="h4-nudge">Spirits</h4>
         </div>
       </div>
 
       <div class="row product-selection">
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/kozue" id="kozue-bottle" class="bottle">
             <img src="../static/images/bottle-images/kozue.png" alt="kozue gin bottle">
           </a>
           <a href="/products/kozue" id="kozue-link" class="product-name">
-            <p>kozue gin</p>
+            <div class="">
+              kozue gin
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/kodachi" id="kodachi-bottle" class="bottle">
             <img src="../static/images/bottle-images/kodachi.png" alt="kodachi gin bottle">
           </a>
           <a href="/products/kodachi" id="kodachi-link" class="product-name">
-            <p>kodachi gin</p>
+            <div class="">
+              kodachi gin
+            </div>
           </a>
         </div>
         
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/kayuki" id="kayuki-bottle" class="bottle">
             <img src="../static/images/bottle-images/kayuki.png" alt="kayuki ume spirits bottle">
           </a>
           <a href="/products/kayuki" id="kayuki-link" class="product-name">
-            <p>kayuki ume spirits</p>
+            <div class="">
+              kayuki ume spirits
+            </div>
           </a>
         </div>
         
@@ -262,7 +291,7 @@
 
       <div class="row flex-grow footer flex-grow-1">
         <div class="col align-self-end">
-          © 2022 evergreen nz
+          © 2022 Evergreen Export Limited
         </div>
       </div>
     </div>
@@ -276,10 +305,10 @@
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="../../static/mobile_nav.js"></script>
     <script type="text/javascript" src="../../static/age_checker.js"></script>
-    <script type="text/javascript" src="../../static/bottle_select.js"></script>
-
-
-
+    <script type="text/javascript" src="../../static/adjust_footer.js"></script>
+    
+      <script type="text/javascript" src="../../static/bottle_select.js"></script>
+    
 
   </body>
 </html>

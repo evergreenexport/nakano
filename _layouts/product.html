@@ -18,13 +18,13 @@ layout: default
   </div>
 </div>
 
-<div class="row mt-2">
+<div class="row">
   <div class="col">
     <h3>{{ page.header }}</h3>
   </div>
 </div>
 
-<div class="row mt-3">
+<div class="row">
 
   <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-4 order-2 order-md-1">
   <!-- <div class="col-12 col-md-8 col-lg-6 order-2 blurb"> -->
@@ -33,7 +33,7 @@ layout: default
         {{ page.content }}
 
         {% if page.hasAwards %}
-          Awards:
+          <div class="pre-colon">Awards:</div>
           <ul>
             <li>{{ page.awardName }}</li>
           </ul>
@@ -41,7 +41,7 @@ layout: default
       </div>
     </div>
     {% if page.productType == 'sake' %}
-    <div class="row sake-profile-nudge">
+    <div class="row">
       <div class="col-12 col-sm-12 col-md-11 col-lg-11" style="">
       {% include sake_insert.html %}
       </div>
@@ -50,14 +50,14 @@ layout: default
     </div>
     {% endif %}
     <div class="row" style="">
-      <div class="col">
-        <p style="font-size: 0.75em;">{{ page.volume }}, {{ page.alcoholContent }} alc/vol.</p>
+      <div class="col alc-content">
+        {{ page.volume }}, {{ page.alcoholContent }} alc/vol.
       </div>
     </div>
   </div>
 
-  <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-center order-1 order-md-2"
-   style="">
+  <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-start btl-img
+   justify-content-center order-1 order-md-2">
     <img src="../../../static/images/bottle-images/{{ page.productImage }}"
      alt="{{ page.image-alt }}" class="pl-0 ml-0" id="product-img">
   </div>

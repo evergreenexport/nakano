@@ -5,25 +5,27 @@ title: Products
 
       <div class="row">
         <div class="col">
-          <h3>Products</h3>
+          <h1>Products</h1>
         </div>
       </div>
 
       {% for item in site.data.products.categories %}
       <div class="row product-header">
         <div class="col">
-          <h4 id="{{ item.headingID }}">{{ item.category }}</h4>
+          <h4 id="{{ item.headingID }}" class="h4-nudge">{{ item.category }}</h4>
         </div>
       </div>
 
       <div class="row product-selection">
         {% for product in item.products %}
-        <div class="col-6 col-md-4 col-lg-3 product-box">
+        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
           <a href="/products/{{ product.url }}" id="{{ product.tag-name }}-bottle" class="bottle">
             <img src="../static/images/bottle-images/{{ product.img-name }}" alt="{{ product.img-alt-name }}">
           </a>
           <a href="/products/{{ product.url }}" id="{{ product.tag-name }}-link" class="product-name">
-            <p>{{ product.name }}</p>
+            <div class="">
+              {{ product.name }}
+            </div>
           </a>
         </div>
         {% endfor %}

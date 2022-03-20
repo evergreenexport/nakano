@@ -2,8 +2,9 @@ regions:
 
 - region: North Shore
   stores:
-    - name: Liquorland Northcross (Brown's Bay)
+    - name: Liquorland Northcross
       url: https://www.liquorland.co.nz/stores/northcross-browns-bay/
+      extraText: (Brown's Bay)
 
     - name: Liquorland Albany
       url: https://www.liquorland.co.nz/stores/albany/
@@ -12,6 +13,7 @@ regions:
   stores:
     - name: Caro's Grey Lynn
       url: https://www.caros.co.nz/
+      extraText: (gin only)
 
     - name: Liquorland Newmarket
       url: https://www.liquorland.co.nz/stores/newmarket/
@@ -31,7 +33,7 @@ regions:
 
 - region: Hawke's Bay
   stores:
-    - name: Advintage
+    - name: Advintage Wines Havelock North
       url: https://www.advintage.co.nz/
 
 - region: Palmerston North
@@ -41,6 +43,12 @@ regions:
 
     - name: Liquorland Pioneer Highway
       url: https://www.liquorland.co.nz/stores/pioneer-highway/
+
+
+- region: Wairarapa
+  stores:
+    - name: Moore Wilson's Masterton
+      url: https://moorewilsons.co.nz/masterton
 
 
 - region: Wellington
