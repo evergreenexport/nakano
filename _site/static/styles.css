@@ -11,10 +11,12 @@ body {
   line-height: 1.5 !important;
 }
 
+.container{
+  min-height: 101vh;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
-  /* background-color: pink;
-  opacity: 0.5; */
 }
 
 h1{
@@ -68,13 +70,10 @@ p{
   font-size: 1rem;
   margin-top: 0rem;
   padding-bottom: 0rem;
-  /* background-color: green;
-  opacity: 0.5; */
 }
 
 .paras-spacer{
   min-height: 0.25rem;
-  /* background-color: red; */
 }
 
 ul{
@@ -97,38 +96,11 @@ li{
   padding-bottom: 0.15rem;
 }
 
+
 .stockist a{
   text-decoration: underline;
 }
 
-
-.container{
-  min-height: 101vh;
-  /* background-color: white; */
-}
-
-
-
-.product-dir{
-  font-family: 'Lato', sans-serif;
-  font-size: 10pt;
-  margin-top: 0.18rem;
-  padding-bottom: 0.82rem;
-}
-
-.product-dir li, a{
-  line-height: 1rem !important;
-  text-decoration: none;
-  color: black;
-}
-
-.product-dir a:hover{
-  text-decoration: none;
-}
-
-/* end product listing styles */
-
-/* product catalogue styles */
 
 .product-box img{
   max-height: 208px !important;
@@ -154,9 +126,8 @@ li{
   margin-top: 0.88rem;
   padding-bottom: 0.12rem;
   line-height: 1.5rem !important;
-  /* background-color: green; */
-  /* opacity: 0.5; */
 }
+
 
 .bottle{
   margin-bottom: 0;
@@ -164,7 +135,6 @@ li{
 }
 
 /* bottle image on a product page */
-
 
 .product-header{
   margin-top: 1.5rem;
@@ -177,21 +147,17 @@ li{
 }
 
 .desktop-header{
-  /* background-color: pink;
-  opacity: 0.5; */
   margin-top: 1.5rem;
   padding-bottom: 2rem;
 }
 
 #desktop-nav{
-  /* background-color: green; */
-  /* opacity: 0.5; */
   margin-top: 0.88rem;
   padding-bottom: 0.12rem;
 }
 
+
 #desktop-nav a{
-  /* background-color: lightblue; */
   line-height: 1rem !important;
   font-size: 1rem;
   color: black;
@@ -202,6 +168,7 @@ li{
   letter-spacing: 0.0125rem;
 }
 
+
 #desktop-nav a:hover{
   text-decoration: underline;
 }
@@ -211,6 +178,7 @@ li{
   color: #0B205F !important;
 }
 
+
 #logo a{
   color: #0B205F;
   font-size: 0.85rem !important;
@@ -219,6 +187,7 @@ li{
   font-family: 'Montserrat', sans-serif;
   margin-top: 0.2rem;
   padding-bottom: 0.3rem;
+  text-decoration: none;
 
   /* Needed to be able to adjust line height */
   display: inline-block;
@@ -226,13 +195,16 @@ li{
 
 }
 
+
 .tighten{
   letter-spacing: -0.1rem;
 }
 
+
 #menu-open{
   color: #0B205F;
 }
+
 
 #menu-open:hover {
   cursor: pointer;

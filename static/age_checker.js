@@ -1,10 +1,10 @@
 
 const yesButton = document.getElementById("over18");
 const noButton = document.getElementById("under18");
+
 checkSessionStorage()
 
 yesButton.addEventListener('click', function(){
-    console.log("yes");
     sessionStorage.setItem('ageChecked', true);
     // hide pop-up
     $("#ageCheckContainer").hide(2000)
@@ -14,11 +14,10 @@ yesButton.addEventListener('click', function(){
     $("body").css("overflow-y", "visible");
 })
 
-noButton.addEventListener('click', function(){
-    console.log("no");
-    // alert('you are under 18');
-    $("#u18Error").css("display", "block")
-    window.location.replace('https://www.alcohol.org.nz/');
+noButton.addEventListener('click', async function(){
+    $("#u18Warning").css("display", "block")
+    await sleep(5000)
+    window.location.assign('https://www.alcohol.org.nz/');
 })
 
 
@@ -27,7 +26,6 @@ function checkSessionStorage() {
 
     // check if it's stored
     if(!sessionStorage.getItem('ageChecked')) {
-
         checkAge();
     }
     else{
@@ -38,6 +36,7 @@ function checkSessionStorage() {
 
 }
 
+
 function checkAge() {
     // hide background
     $("#dim-background").css("display", "block");
@@ -45,5 +44,10 @@ function checkAge() {
     $("body").css("overflow-y", "hidden");
     // show pop-up
     $("#ageCheckContainer").css("display", "block");
-    console.log("checking age");
 }
+
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
