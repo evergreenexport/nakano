@@ -3,10 +3,10 @@ html{
 }
 
 body {
-  /* background-size: 0.5rem 0.5rem;
+  background-size: 0.5rem 0.5rem;
   background-image:
     linear-gradient(to right, pink 1px, transparent 1px),
-    linear-gradient(to bottom, pink 1px, transparent 1px); */
+    linear-gradient(to bottom, pink 1px, transparent 1px);
   font-family: 'Lato', sans-serif;
   line-height: 1.5 !important;
 }
@@ -192,7 +192,6 @@ li{
   /* Needed to be able to adjust line height */
   display: inline-block;
   letter-spacing: 0.5px;
-
 }
 
 
@@ -208,28 +207,28 @@ li{
 
 #menu-open:hover {
   cursor: pointer;
-  color: hotpink;
+  color: #0B205F;
 }
+
 
 #menu-close-container{
-  /* background-color: red; */
   text-align: right;
-  margin-top: 1rem;
+  padding-right: 1.0rem;
+  margin-top: 1.9rem;
+  padding-bottom: 0.1rem;
 }
 
+
 #menu-close{
-  padding-right: 0.5rem !important;
-  padding-top: 4rem !important;
-  margin-top: 6rem !important;
-  display: inline !important;
   color: white;
-  /* background-color: hotpink; */
 }
+
 
 #menu-close:hover {
   cursor: pointer;
   color: black;
 }
+
 
 #mobile-nav {
   background-color: #0B205F;
@@ -244,28 +243,30 @@ li{
   transition: 0.5s;
   color: white;
   left: 0;
-  padding-top: 0.4rem !important;
-  /* background-size: 0.5em 0.5em;
-  background-image:
+  background-size: 0.5em 0.5em;
+  /* background-image:
     linear-gradient(to right, lightblue 1px, transparent 1px),
     linear-gradient(to bottom, lightblue 1px, transparent 1px); */
 }
+
 
 #mobile-nav-items{
   margin-left: 1rem !important;
   line-height: 3rem !important;
   white-space: nowrap;
-  /* top: 0; */
-  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  margin-top: 1.5rem;
+  margin-top: 3.75rem;
+  padding-bottom: 0.25rem;
+  margin-left: 1.5rem;
   letter-spacing: 0.125em;
   }
+
 
 #mobile-nav a{
   text-decoration: none;
   color: white;
 }
+
 
 #mobile-nav a:hover{
   color: hotpink;
@@ -277,7 +278,7 @@ li{
   font-family: 'Lato', sans-serif;
   display: inline-block;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5rem;
   color: black;
   background-color: white;
   border-color: #0B205F;
@@ -297,11 +298,13 @@ li{
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
+
 .c2a-btn:hover{
   color: white !important;
   background-color: black;
   text-decoration: none;
 }
+
 
 .footer{
   margin-top: 3.15rem;
@@ -312,9 +315,9 @@ li{
 }
 
 
-
 @media (min-width: 576px) {
 }
+
 
 @media (min-width: 768px) {
   #menu-open {display: none !important;}
@@ -324,6 +327,7 @@ li{
     padding-bottom: 0rem;
   }
 }
+
 
 @media (min-width: 576px) and (max-width: 768px) {
 
@@ -359,6 +363,7 @@ li{
 
 }
 
+
 @media (min-width: 768px) and (max-width: 992px) {
   h1{
     font-size: 2.125rem;
@@ -385,6 +390,7 @@ li{
   }
 }
 
+
 @media (min-width: 992px) and (max-width: 1200px) {
 
   h1{
@@ -409,6 +415,7 @@ li{
     line-height: 2rem;
   }
 }
+
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .desktop-header{

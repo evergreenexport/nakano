@@ -3,7 +3,6 @@ h3{
 }
 
 
-
 .product-dir{
   font-family: 'Lato', sans-serif;
   font-size: 10pt;
@@ -17,10 +16,10 @@ h3{
   color: black;
 }
 
+
 .product-dir a:hover{
   text-decoration: none;
 }
-
 
 
 .btl-img{
@@ -34,11 +33,10 @@ h3{
   z-index: 0;
 }
 
+
 #medal-img{
-  /* padding-right: -20px; */
   margin-right: -0.75rem;
   margin-bottom: 0.75rem;
-  /* margin-top: 1em; */
   z-index: 1;
 }
 
@@ -46,16 +44,20 @@ h3{
 .awards-container{
   margin-top: 1.36rem;
   padding-bottom: 0.14rem;
+    /* line-height: 1.25rem !important; */
 }
+
 
 .awards-container li{
   /* line-height: 1.25rem !important; */
 }
 
+
 .profile-pre-header{
   margin-top: 0.36rem;
   padding-bottom: 0.14rem;
 }
+
 
 .sake-profile{
   margin-top: 0.4rem !important;
@@ -72,26 +74,32 @@ h3{
   margin-top: 0.17rem !important;
 }
 
+
 .sake-scales-nudge-bottom{
   padding-bottom: 1.33rem !important;
 }
+
 
 .recommended-temp{
   line-height: 1.0rem;
   text-align: center;
 }
 
+
 .chilled{
   background-color: #5BB1F750;
 }
+
 
 .warm{
   background-color: #F8717150;
 }
 
+
 .hot{
   background-color: #F3A7A7;
 }
+
 
 .scales{
   padding-left: 0;
@@ -105,8 +113,10 @@ h3{
   padding-bottom: 0.32rem;
 }
 
+
 @media (min-width: 576px) {
 }
+
 
 @media (min-width: 768px) {
   .btl-img{
@@ -115,20 +125,24 @@ h3{
   }
 }
 
+
 @media (min-width: 576px) and (max-width: 768px) {
   .desktop-header{
     padding-bottom: 1rem;
   }
+
   h3{
     margin-top: 0.45rem;
     padding-bottom: 0.55rem;
   }
+
   .btl-img{
     margin-top: 3rem;
     padding-bottom: 1.0rem;
   }
 
 }
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   h3{
@@ -143,6 +157,7 @@ h3{
     padding-bottom: 1.05rem;
   }
 }
+
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .desktop-header{

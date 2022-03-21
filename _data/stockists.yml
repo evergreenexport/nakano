@@ -33,8 +33,9 @@ regions:
 
 - region: Hawke's Bay
   stores:
-    - name: Advintage Wines Havelock North
+    - name: Advintage Wines
       url: https://www.advintage.co.nz/
+      extraText: (Havelock North)
 
 - region: Palmerston North
   stores:
