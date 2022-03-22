@@ -2,6 +2,7 @@
 layout: product
 name: yuzu
 header: Yuzu umeshu 720ml
+description: Nakano yuzu umeshu.
 productType: umeshu
 productImage: yuzu.png
 medalImage: yuzu-medal.svg

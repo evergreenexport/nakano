@@ -2,6 +2,7 @@
 layout: product
 name: gohyakumangoku
 header: Gohyakumangoku 720ml
+description: Nakano gohyakumangoku junmai-shu sake - from the Kinokuniya Bunzaemon series.
 productType: sake
 productImage: 500mangoku.png
 medalImage: 500mangoku-medal.svg

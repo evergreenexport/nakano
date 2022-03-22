@@ -2,6 +2,7 @@
 layout: product
 name: nakano umeshu
 header: Nakano umeshu (plum wine) 720ml
+description: Nakano umeshu (plum wine), crafted from Wakayama Nanko ume.
 productType: umeshu
 productImage: umeshu.png
 medalImage: null

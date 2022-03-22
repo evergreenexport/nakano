@@ -2,6 +2,7 @@
 layout: product
 name: kayuki
 header: Kayuki ume spirits 700ml
+description: Nakano's kayuki ume spirits 
 productType: spirits
 productImage: kayuki.png
 medalImage: kayuki-medal.svg
@@ -18,4 +19,6 @@ volume: 700ml
 alcoholContent: 45%
 ---
 
-Crafted using umeshu from Wakayama Nanko ume (plums) as the base, the umeshu is then vacuum-distilled to produce a fine spirit that retains the ume’s distinctive aroma.  
+A distilled fine spirit that retains the distinctive aroma of ume.  
+
+Vacuum-distilled using umeshu from Wakayama Nanko ume (plums) as the base.

@@ -2,6 +2,7 @@
 layout: product
 name: namachozo
 header: Namachozo junmai-shu 720ml
+description: Nakano namachozo junmai-shu sake, from the Kinokuniya Bunzaemon series.
 productType: sake
 productImage: namachozo.png
 medalImage: null

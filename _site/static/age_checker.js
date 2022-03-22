@@ -16,7 +16,7 @@ yesButton.addEventListener('click', function(){
 
 noButton.addEventListener('click', async function(){
     $("#u18Warning").css("display", "block")
-    await sleep(5000)
+    await sleep(7000)
     window.location.assign('https://www.alcohol.org.nz/');
 })
 
@@ -50,4 +50,3 @@ function checkAge() {
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-

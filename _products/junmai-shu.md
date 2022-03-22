@@ -2,6 +2,7 @@
 layout: product
 name: junmai-shu
 header: Junmai-shu 720ml
+description: Nakano junmai-shu sake - from the Kinokuniya Bunzaemon series.
 productType: sake
 productImage: junmai-shu.png
 medalImage: junmai-shu-medal.svg
@@ -20,6 +21,6 @@ alcoholContent: 15%
 
 Nakano’s multi-award winning signature junmai-shu sake.  
 
-Smooth, full-bodied and carefully crafted using <i>yamada-nishiki</i> (the ‘King’ of sake rice) and <i>dewasanzan</i> (rice famous for its rich aroma).  
+Smooth, full-bodied and carefully crafted using yamada-nishiki (the ‘King’ of sake rice) and dewasanzan (rice famous for its rich aroma).  
 
-The balance of <i>umami</i> and slightly tart and fruity notes makes for a superbly drinkable junmai-shu.
+The balance of umami and slightly tart and fruity notes makes for a superbly drinkable junmai-shu.

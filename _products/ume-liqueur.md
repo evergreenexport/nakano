@@ -2,6 +2,7 @@
 layout: product
 name: ume liqueur
 header: Ume liqueur 720ml
+description: Nakano ume liqueur crafted from with crimson ripened (beninanko) ume plums.
 productType: umeshu
 productImage: beninanko.png
 medalImage: null
@@ -18,6 +19,6 @@ volume: 720ml
 alcoholContent: 20%
 ---
 
-An extra premium ume (plum) liqueur, handcrafted using only crimson ripened nanko ume from Wakayama, which have been hand-selected one-by-one and soaked in spirits on the same day.
+An extra premium ume (plum) liqueur, handcrafted using only crimson ripened nanko ume from Wakayama (called "beninanko"), which have been hand-selected one-by-one and soaked in spirits on the same day.
 
 The producer uses one-and-a-half times the plums of Nakano’s signature umeshu, producing a liqueur with accentuated richness and flavour.  

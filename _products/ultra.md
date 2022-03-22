@@ -2,6 +2,7 @@
 layout: product
 name: ultra
 header: Ultra junmai-ginjo 720ml
+description: Nakano ultra gino junmai-shu sake, commissioned for the exclusive Kitcho restaurant.
 productType: sake
 productImage: ultra-white.png
 medalImage: null

@@ -68,6 +68,7 @@ regions:
 
     - name: Liquorland Riccarton
       url: https://www.liquorland.co.nz/stores/riccarton/
+      extraText: (umeshu only)
 
     - name: Liquorland Church Corner
       url: https://www.liquorland.co.nz/stores/church-corner/

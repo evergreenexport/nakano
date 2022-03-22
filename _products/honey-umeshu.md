@@ -2,6 +2,7 @@
 layout: product
 name: honey
 header: Honey umeshu 720ml
+description: Nakano honey umeshu (plum wine).
 productType: umeshu
 productImage: honey.png
 medalImage: null
