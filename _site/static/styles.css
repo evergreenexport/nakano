@@ -3,10 +3,10 @@ html{
 }
 
 body {
-  background-size: 0.5rem 0.5rem;
+  /* background-size: 0.5rem 0.5rem;
   background-image:
     linear-gradient(to right, pink 1px, transparent 1px),
-    linear-gradient(to bottom, pink 1px, transparent 1px);
+    linear-gradient(to bottom, pink 1px, transparent 1px); */
   font-family: 'Lato', sans-serif;
   line-height: 1.5 !important;
 }
