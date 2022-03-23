@@ -1,3 +1,4 @@
+// JS event listeners and functions for the age check pop-up.
 
 const yesButton = document.getElementById("over18");
 const noButton = document.getElementById("under18");
@@ -14,26 +15,19 @@ yesButton.addEventListener('click', function(){
     $("body").css("overflow-y", "visible");
 })
 
+
 noButton.addEventListener('click', async function(){
     $("#u18Warning").css("display", "block")
-    await sleep(7000)
+    await sleep(5000)
     window.location.assign('https://www.alcohol.org.nz/');
 })
 
 
+// Check if we've already checked the user's age in this session.
 function checkSessionStorage() {
-    console.log('page is fully loaded');
-
-    // check if it's stored
     if(!sessionStorage.getItem('ageChecked')) {
         checkAge();
     }
-    else{
-        // do nothing
-        console.log('rendering page');
-        console.log(sessionStorage.getItem('ageChecked'))
-    }
-
 }
 
 
@@ -47,6 +41,7 @@ function checkAge() {
 }
 
 
+// Delay function before redirect to alcohol.govt.nz
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }

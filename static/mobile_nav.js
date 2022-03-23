@@ -1,4 +1,4 @@
-// add event listeners
+// Event listeners for opening and closing the mobile nav menu.
 
 const menuOpen = document.getElementById("menu-open");
 menuOpen.addEventListener("click", openMobileNav);

@@ -1,3 +1,6 @@
+// Functions for synced hover behaviour for a bottle image and its corresponding
+// product name text.
+
 var bottles = document.getElementsByClassName("bottle");
 var nameTags = document.getElementsByClassName("product-name");
 
@@ -13,7 +16,6 @@ var highlightLink = function() {
 var unHighlightLink = function() {
     let itemId = this.getAttribute('id');
     productName = getProductName(itemId)
-    console.log(itemId)
     $("#" + productName + "-link").css("color", "black");
     $("#" + productName + "-link").css("text-decoration", "none");
 }
@@ -28,15 +30,15 @@ function getProductName(itemId) {
     return productName;
 }
 
-
+// Add event listeners for all bottle images
 for (var i = 0; i < bottles.length; i++) {
     bottles[i].addEventListener('mouseover', highlightLink, false);
     bottles[i].addEventListener('mouseout', unHighlightLink, false);
-    console.log(bottles[i].id)
 }
 
+
+// Add event listeners for all bottle name tags
 for (var i = 0; i < nameTags.length; i++) {
     nameTags[i].addEventListener('mouseover', highlightLink, false);
     nameTags[i].addEventListener('mouseout', unHighlightLink, false);
-    console.log(nameTags[i].id);
 }
