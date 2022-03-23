@@ -5,7 +5,7 @@
 #ageCheckContainer h4{
   font-family: 'Montserrat', sans-serif;
   /* margin-bottom: 1em; */
-  color: black; 
+  color: black;
   /* margin-bottom: 0.75em; */
 }
 
@@ -18,7 +18,7 @@
 }
 
 #dim-background {
-  background-color: white;
+  background-color: lightgrey;
   position: fixed;
   display: none;
   width: 100vw;
