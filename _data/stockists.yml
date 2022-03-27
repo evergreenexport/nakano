@@ -42,6 +42,9 @@ regions:
     - name: Liquorland Albert Street
       url: https://www.liquorland.co.nz/stores/albert-street/
 
+    - name: Liquorland Grey Street
+      url: https://www.liquorland.co.nz/stores/grey-street/
+
     - name: Liquorland Pioneer Highway
       url: https://www.liquorland.co.nz/stores/pioneer-highway/
 

@@ -2,6 +2,7 @@ categories:
 
 - category: Sake
   headingID: sake
+  categoryName: sake
   products:
 
   - name: junmai-shu
@@ -36,25 +37,26 @@ categories:
 
 - category: Umeshu (plum wine)
   headingID: umeshu
+  categoryName: umeshu
   products:
 
   - name: umeshu
     img-name: umeshu.png
     img-alt-name: Nakano umeshu plum wine bottle
     tag-name: umeshu
-    url: umeshu
+    url: nakano-umeshu
 
   - name: yuzu umeshu
     img-name: yuzu.png
     img-alt-name: yuzu umeshu bottle
     tag-name: yuzu
-    url: yuzu-umeshu
+    url: yuzu
 
   - name: honey umeshu
     img-name: honey.png
     img-alt-name: honey umeshu bottle
     tag-name: honey
-    url: honey-umeshu
+    url: honey
 
   - name: ume liqueur
     img-name: beninanko.png
@@ -76,6 +78,7 @@ categories:
 
 - category: Spirits
   headingID: spirits
+  categoryName: spirits
   products:
 
   - name: kozue gin
