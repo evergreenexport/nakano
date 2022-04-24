@@ -23,11 +23,19 @@ description: Nakano BC's range of sake, umeshu (plum wine) and spirits available
           <a href="/products/{{ item.categoryName }}/{{ product.url }}" id="{{ product.tag-name }}-bottle" class="bottle">
             <img src="../static/images/bottle-images/{{ product.img-name }}" alt="{{ product.img-alt-name }}">
           </a>
-          <a href="/products/{{ item.categoryName }}/{{ product.url }}" id="{{ product.tag-name }}-link" class="product-name">
+          <a href="/products/{{ item.categoryName }}/{{ product.url }}" id="{{ product.tag-name }}-link" class="product-name text-center">
             <div class="">
               {{ product.name }}
             </div>
           </a>
+          <div class="preview-text">
+            <a href="/products/{{ item.categoryName }}/{{ product.url }}">
+              <p class="preview-text-content" style="color: black;"
+               id="{{ product.tag-name }}-text" ">
+                {{ product.preview-text }}
+              </p>
+            </a>
+          </div>
         </div>
         {% endfor %}
       </div>

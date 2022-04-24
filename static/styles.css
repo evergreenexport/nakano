@@ -107,7 +107,7 @@ li{
 }
 
 .product-box{
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -124,11 +124,26 @@ li{
 
 /* nudge the product name down */
 .product-name{
-  margin-top: 0.88rem;
-  padding-bottom: 0.12rem;
+  margin-top: 2.42rem;
+  padding-bottom: 0.08rem;
   line-height: 1.5rem !important;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
+.preview-text p{
+  opacity: 0.8;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.25rem;
+  /* text-justify: auto; */
+  margin-top: 0.54rem;
+  padding-bottom: 0.46rem;
+}
+
+.preview-text:hover{
+  cursor: pointer;
+}
 
 .bottle{
   margin-bottom: 0;
@@ -449,6 +464,9 @@ li{
   h4{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+  .product-box{
+    margin-top: 4.5rem;
   }
 }
 
