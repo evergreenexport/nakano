@@ -18,13 +18,13 @@
 }
 
 #dim-background {
-  background-color: lightgrey;
+  background-color: #0B205F;
   position: fixed;
   display: none;
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  opacity: 0.85;
+  opacity: 0.9;
   /* transition: opacity, 0s; */
 }
 

@@ -24,7 +24,8 @@ noButton.addEventListener('click', async function(){
 
 
 // Check if we've already checked the user's age in this session.
-function checkSessionStorage() {
+async function checkSessionStorage() {
+    await sleep(1500)
     if(!sessionStorage.getItem('ageChecked')) {
         checkAge();
     }

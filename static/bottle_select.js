@@ -3,6 +3,7 @@
 
 var bottles = document.getElementsByClassName("bottle");
 var nameTags = document.getElementsByClassName("product-name");
+var previewTextBoxes = document.getElementsByClassName("preview-text-content");
 
 var highlightLink = function() {
     let itemId = this.getAttribute('id');
@@ -41,4 +42,10 @@ for (var i = 0; i < bottles.length; i++) {
 for (var i = 0; i < nameTags.length; i++) {
     nameTags[i].addEventListener('mouseover', highlightLink, false);
     nameTags[i].addEventListener('mouseout', unHighlightLink, false);
+}
+
+// Add event listeners for all bottle name tags
+for (var i = 0; i < previewTextBoxes.length; i++) {
+    previewTextBoxes[i].addEventListener('mouseover', highlightLink, false);
+    previewTextBoxes[i].addEventListener('mouseout', unHighlightLink, false);
 }
