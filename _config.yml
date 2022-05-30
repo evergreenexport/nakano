@@ -5,5 +5,5 @@ collections:
   campaigns:
     output: true
     permalink: /campaigns/:path/
-plugins:
-  - jekyll-target-blank
+# plugins:
+  # - jekyll-target-blank
