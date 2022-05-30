@@ -18,7 +18,8 @@
 }
 
 #dim-background {
-  background-color: #0B205F;
+  /* background-color: #0B205F; */
+  background-color: darkgrey;
   position: fixed;
   display: none;
   width: 100vw;

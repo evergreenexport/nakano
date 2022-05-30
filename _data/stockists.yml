@@ -2,12 +2,24 @@ regions:
 
 - region: North Shore
   stores:
-    - name: Liquorland Northcross
-      url: https://www.liquorland.co.nz/stores/northcross-browns-bay/
-      extraText: (Brown's Bay)
 
     - name: Liquorland Albany
       url: https://www.liquorland.co.nz/stores/albany/
+
+    - name: Liquorland Forrest Hill
+      url: https://www.liquorland.co.nz/stores/forrest-hill/
+
+    - name: Liquorland Glenfield
+      url: https://www.liquorland.co.nz/stores/glenfield/
+
+    - name: Liquorland Northcross
+      url: https://www.liquorland.co.nz/stores/northcross-browns-bay/
+      extraText: (Brown's Bay)
+      # products:
+      #  - product: junmai-shu
+      #  - product: ginjo
+
+
 
 - region: Auckland City
   stores:
@@ -24,11 +36,12 @@ regions:
 
 - region: New Plymouth
   stores:
-    - name: Liquorland Fitzroy
-      url: https://www.liquorland.co.nz/stores/fitzroy/
 
     - name: Liquorland Courtenay Street
       url: https://www.liquorland.co.nz/stores/courtenay-street/
+
+    - name: Liquorland Fitzroy
+      url: https://www.liquorland.co.nz/stores/fitzroy/
 
 
 - region: Hawke's Bay
@@ -69,16 +82,21 @@ regions:
     - name: Liquorland Blenheim Road
       url: https://www.liquorland.co.nz/stores/blenheim-road/
 
+    - name: Liquorland Church Corner
+      url: https://www.liquorland.co.nz/stores/church-corner/
+
     - name: Liquorland Riccarton
       url: https://www.liquorland.co.nz/stores/riccarton/
       extraText: (umeshu only)
 
-    - name: Liquorland Church Corner
-      url: https://www.liquorland.co.nz/stores/church-corner/
-
     - name: Vino Fino, Durham Street South
       url: https://www.vinofino.co.nz/
 
+- region: Online
+  stores:
+    - name: Easy Tiger
+      url: https://easytiger.co.nz/
+      extraText: (online orders only)
 # - region: Dunedin
 #   stores:
 #     - name: Liquorland Meenans

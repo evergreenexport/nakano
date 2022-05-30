@@ -2,3 +2,8 @@ collections:
   products:
     output: true
     permalink: /products/:path/
+  campaigns:
+    output: true
+    permalink: /campaigns/:path/
+plugins:
+  - jekyll-target-blank
