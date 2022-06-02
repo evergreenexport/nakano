@@ -27,17 +27,15 @@ layout: default
             </a>
           </div>
 
-
+          <div class="product-name" style="" id="{{ product.tag-name }}-name">
             <a href="/products/{{ product.categoryName }}/{{ product.url }}"
-             id="{{ product.tag-name }}-link" class="product-name"
+             id="{{ product.tag-name }}-link" class=""
              target="_blank">
-              <div class="">
                 {{ product.name }}
-              </div>
             </a>
+          </div>
 
-
-          <div class="preview-text">
+          <div class="preview-text ">
             <a href="/products/{{ product.categoryName }}/{{ product.url }}"
              target="_blank">
               <p class="preview-text-content" style="color: black;"
@@ -46,7 +44,7 @@ layout: default
               </p>
             </a>
           </div>
-          <div class="mt-auto price">
+          <div class="price mt-auto">
             <span class="">{{ product.price }}</span>
           </div>
         </div>

@@ -50,7 +50,7 @@ products:
   tag-name: ultra-white
   url: ultra
   preview-text: Originally commissioned for the exclusive Kitcho (吉兆) restaurant, which many...
-  price: $62.99
+  price: $61.99
 
 - name: umeshu (plum wine)
   categoryName: umeshu
@@ -68,7 +68,7 @@ products:
   tag-name: yuzu
   url: yuzu
   preview-text: A unique blend of refreshing yuzu juice (Japanese citrus), beautifully blended...
-  price: $36.99
+  price: $34.99
 
 - name: honey umeshu (plum wine)
   categoryName: umeshu
@@ -79,7 +79,7 @@ products:
   preview-text: Nakano umeshu, blended with elegant honey.
   price: $31.99
 
-- name: umeshu (plum wine) with whole ume 720ml
+- name: umeshu with whole ume
   categoryName: umeshu
   img-name: umeshu_mi_iri_720ml.png
   img-alt-name: umeshu jar with whole ume 720ml
@@ -96,7 +96,7 @@ products:
   tag-name: beninanko
   url: ume-liqueur
   preview-text: An extra premium ume (plum) liqueur, handcrafted using only crimson ripened...
-  price: $64.99
+  price: $61.99
 
 ---
 
