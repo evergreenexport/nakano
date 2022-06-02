@@ -336,10 +336,22 @@ li{
   text-decoration: none;
 }
 
+.bottom-nav {
+  margin-top: 0.35rem;
+  padding-bottom: 1.65rem;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-nav a{
+  color: black;
+  text-decoration: none;
+}
 
 .footer{
-  margin-top: 3.15rem;
-  padding-bottom: 1.85rem;
+  margin-top: 0.5rem;
+  padding-bottom: 1.5rem;
   font-size: 0.7rem;
   text-align: center;
   font-family: 'Lato', sans-serif;

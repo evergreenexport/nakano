@@ -20,18 +20,23 @@ layout: default
         <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 product-box d-flex
          flex-column mb-4 mt-5 border-bottom">
 
-          <a href="../../products/{{ product.categoryName }}/{{ product.url }}"
-           id="{{ product.tag-name }}-bottle" class="bottle" target="_blank">
-            <img src="../../static/images/bottle-images/{{ product.img-name }}" alt="{{ product.img-alt-name }}">
-          </a>
+          <div class="">
+            <a href="../../products/{{ product.categoryName }}/{{ product.url }}"
+             id="{{ product.tag-name }}-bottle" class="bottle" target="_blank">
+              <img src="../../static/images/bottle-images/{{ product.img-name }}" alt="{{ product.img-alt-name }}">
+            </a>
+          </div>
 
-          <a href="/products/{{ product.categoryName }}/{{ product.url }}"
-           id="{{ product.tag-name }}-link" class="product-name "
-           target="_blank">
-            <div class="">
-              {{ product.name }}
-            </div>
-          </a>
+
+            <a href="/products/{{ product.categoryName }}/{{ product.url }}"
+             id="{{ product.tag-name }}-link" class="product-name"
+             target="_blank">
+              <div class="">
+                {{ product.name }}
+              </div>
+            </a>
+
+
           <div class="preview-text">
             <a href="/products/{{ product.categoryName }}/{{ product.url }}"
              target="_blank">
