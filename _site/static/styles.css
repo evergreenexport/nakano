@@ -284,8 +284,8 @@ li{
   transition: 0.5s;
   color: white;
   left: 0;
-  background-size: 0.5em 0.5em;
-  /* background-image:
+  /* background-size: 0.5em 0.5em;
+  background-image:
     linear-gradient(to right, lightblue 1px, transparent 1px),
     linear-gradient(to bottom, lightblue 1px, transparent 1px); */
 }
