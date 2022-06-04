@@ -27,6 +27,9 @@ regions:
       url: https://www.caros.co.nz/
       extraText: (gin only)
 
+    - name: Liquorland Mt Eden
+      url: https://www.liquorland.co.nz/stores/mt-eden/
+
     - name: Liquorland Newmarket
       url: https://www.liquorland.co.nz/stores/newmarket/
 
@@ -79,6 +82,10 @@ regions:
 
 - region: Christchurch
   stores:
+    - name: Liquorland Bishopdale
+      url: https://www.liquorland.co.nz/stores/bishopdale/
+      extraText: (spirits only)
+
     - name: Liquorland Blenheim Road
       url: https://www.liquorland.co.nz/stores/blenheim-road/
 
