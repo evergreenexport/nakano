@@ -10,7 +10,7 @@
   </div>
   <div class="col-4 col-md-4 col-lg-4 scales">
   <!-- <div class="col-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3 scales"> -->
-    <img src="../../../static/images/scales/smooth-dry/{{ page.smoothDryImage }}" class="img-fluid" alt="">
+    <img src="/static/images/scales/smooth-dry/{{ product.smoothDryImage }}" class="img-fluid" alt="">
   </div>
   <div class="col">
     smooth
@@ -24,7 +24,7 @@
   </div>
   <div class="col-4 col-md-4 col-lg-4 scales">
   <!-- <div class="col-4 col-md-4 col-lg-4 col-xl-4 col-xxl-3 scales"> -->
-    <img src="../../../static/images/scales/light-bodied-full-bodied/{{ page.bodyImage }}" class="img-fluid" alt="">
+    <img src="/static/images/scales/light-bodied-full-bodied/{{ product.bodyImage }}" class="img-fluid" alt="">
   </div>
   <div class="col">
     full-bodied
@@ -35,7 +35,7 @@
   <div class="col-4 col-sm-3 text-end">
     serve
   </div>
-  {% if page.serveHot %}
+  {% if product.serveHot %}
   <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xxl-7 recommended-temp">
   <!-- <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-4 recommended-temp"> -->
   {% else %}
@@ -44,19 +44,19 @@
   {% endif %}
     <div class="row">
       <div class="col chilled">
-        {{ page.chilledTemp }}
+        {{ product.chilledTemp }}
       </div>
-      {% if page.serveWarm %}
+      {% if product.serveWarm %}
       <div class="col warm">
-        {{ page.warmTemp }}
+        {{ product.warmTemp }}
       </div>
       {% else %}
       <div class="col">
       </div>
       {% endif %}
-      {% if page.serveHot %}
+      {% if product.serveHot %}
       <div class="col hot">
-        {{ page.hotTemp }}
+        {{ product.hotTemp }}
       </div>
       {% else %}
       <div class="col">
@@ -67,7 +67,7 @@
       <div class="col">
         chilled
       </div>
-      {% if page.serveWarm %}
+      {% if product.serveWarm %}
       <div class="col">
         warm
       </div>
@@ -75,7 +75,7 @@
       <div class="col">
       </div>
       {% endif %}
-      {% if page.serveHot %}
+      {% if product.serveHot %}
       <div class="col">
         hot
       </div>

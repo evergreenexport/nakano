@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign product = site.data.products.skus | find: "id", page.name %}
+
 <div class="row">
   <div class="col product-dir">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
@@ -10,9 +12,9 @@ layout: default
           <a href="/products">products</a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/products#{{ page.productType }}">{{ page.productType }}</a>
+          <a href="/products#{{ product.category }}">{{ product.category }}</a>
         </li>
-        <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+        <li class="breadcrumb-item active" aria-current="page">{{ product.displayName }}</li>
       </ol>
     </nav>
   </div>
@@ -20,7 +22,7 @@ layout: default
 
 <div class="row">
   <div class="col">
-    <h3>{{ page.header }}</h3>
+    <h3>{{ product.displayHeader }}</h3>
   </div>
 </div>
 
@@ -31,22 +33,22 @@ layout: default
     <div class="row">
       <div class="col nudge" style="">
         <div class="paras">
-          {{ page.content }}
+          {{ product.description | markdownify }}
         </div>
         <div class="paras-spacer"></div>
 
 
-        {% if page.hasAwards %}
+        {% if product.hasAwards %}
         <div class="awards-container">
           Awards:
           <ul class="">
-            <li>{{ page.awardName }}</li>
+            <li>{{ product.awardName }}</li>
           </ul>
         </div>
         {% endif %}
       </div>
     </div>
-    {% if page.productType == 'sake' %}
+    {% if product.category == 'sake' %}
     <div class="row">
       <div class="col-12 col-sm-12 col-md-11 col-lg-11" style="">
       {% include sake_insert.html %}
@@ -57,15 +59,15 @@ layout: default
     {% endif %}
     <div class="row" style="">
       <div class="col alc-content">
-        {{ page.volume }}, {{ page.alcoholContent }} alc/vol.
+        {{ product.volume }}, {{ product.alcoholContent }} alc/vol.
       </div>
     </div>
   </div>
 
   <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-start btl-img
    justify-content-center order-1 order-md-2">
-    <img src="../../../static/images/bottle-images/{{ page.productImage }}"
-     alt="{{ page.image-alt }}" class="pl-0 ml-0" id="product-img">
+    <img src="/static/images/bottle-images/{{ product.imageName }}"
+     alt="{{ product.image-alt }}" class="pl-0 ml-0" id="product-img">
   </div>
   <div class="col order-3" style="">
 

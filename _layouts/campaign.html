@@ -4,48 +4,57 @@ layout: default
 
 <div class="row">
   <div class="col mt-md-3 mt-xl-2">
-    <h3>{{ page.header }}</h3>
+    <h3>Available range at {{ page.store }}</h3>
   </div>
 </div>
 
 <div class="row mt-3 mb-2 mb-lg-3 mb-xxl-5">
   <div class="col-12 col-md-8 col-lg-6 col-xl-6 col-xxl-6" style="background-color: none;">
-    {{ page.content }}
+    <p>Thanks for your interest in Nakano sake and umeshu.</p>
+    <p>These products are handcrafted in Japan, and are available now at
+      <a href="{{ page.storeUrl }}" target="_blank">{{ page.store }}</a> {{ page.storeAddress }}.</p>
+    <p>Here's the current range at {{ page.store }} (available while stocks last):</p>
   </div>
 </div>
 <div class="row">
   <div class="col">
     <div class="row">
-      {% for product in page.products %}
+      {% for storeProduct in page.products %}
+        {% assign product = site.data.products.skus | find: "id", storeProduct.id %}
         <div class="col-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 product-box d-flex
          flex-column mb-4 mt-5 border-bottom">
 
           <div class="">
-            <a href="../../products/{{ product.categoryName }}/{{ product.url }}"
-             id="{{ product.tag-name }}-bottle" class="bottle" target="_blank">
-              <img src="../../static/images/bottle-images/{{ product.img-name }}" alt="{{ product.img-alt-name }}">
+            <a href="/products/{{ product.category }}/{{ product.url }}"
+             id="{{ product.id }}-bottle" class="bottle" target="_blank">
+              <img src="/static/images/bottle-images/{{ product.imageName }}" alt="{{ product.imageAltName }}">
             </a>
           </div>
 
-          <div class="product-name" style="" id="{{ product.tag-name }}-name">
-            <a href="/products/{{ product.categoryName }}/{{ product.url }}"
-             id="{{ product.tag-name }}-link" class=""
-             target="_blank">
-                {{ product.name }}
+          <div class="text-center product-name" id="{{ product.id }}-name">
+            <a href="/products/{{ product.category }}/{{ product.url }}"
+             id="{{ product.id }}-link" class="">
+              <div class=" ">
+                {% if storeProduct.customDisplayName %}
+                  {{ storeProduct.customDisplayName }}
+                {% else %}
+                  {{ product.displayName }}
+                {% endif %}
+              </div>
             </a>
           </div>
 
           <div class="preview-text ">
-            <a href="/products/{{ product.categoryName }}/{{ product.url }}"
+            <a href="/products/{{ product.category }}/{{ product.url }}"
              target="_blank">
               <p class="preview-text-content" style="color: black;"
-               id="{{ product.tag-name }}-text" ">
-                {{ product.preview-text }}
+               id="{{ product.id }}-text" ">
+                {{ product.description | truncate: 75 }}
               </p>
             </a>
           </div>
           <div class="price mt-auto">
-            <span class="">{{ product.price }}</span>
+            <span class="">{{ storeProduct.price }}</span>
           </div>
         </div>
       {% endfor %}

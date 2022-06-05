@@ -10,41 +10,44 @@ description: Nakano BC's range of sake, umeshu (plum wine) and spirits available
         </div>
       </div>
 
-      {% for item in site.data.products.categories %}
-      <div class="row product-header">
-        <div class="col">
-          <h4 id="{{ item.headingID }}" class="">{{ item.category }}</h4>
+      {% for category in site.data.product-categories.categories %}
+        <div class="row product-header">
+          <div class="col">
+            <h4 id="{{ item.headingID }}" class="">{{ category.categoryName | capitalize }}</h4>
+          </div>
         </div>
-      </div>
 
-      <div class="row product-selection">
-        {% for product in item.products %}
-        <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
-          <!-- bottle image -->
-          <div>
-            <a href="/products/{{ item.categoryName }}/{{ product.url }}"
-             class="bottle" id="{{ product.tag-name }}-bottle">
-              <img src="../static/images/bottle-images/{{ product.img-name }}"
-               alt="{{ product.img-alt-name }}">
-            </a>
-          </div>
-          <div class="text-center product-name" id="{{ product.tag-name }}-name">
-            <a href="/products/{{ item.categoryName }}/{{ product.url }}"
-             id="{{ product.tag-name }}-link" class="">
-              <div class=" ">
-                {{ product.name }}
+        <div class="row product-selection">
+          {% for product in site.data.products.skus %}
+            {% if product.category == category.categoryName %}
+            <div class="col-6 col-md-4 col-lg-3 product-box d-flex flex-column">
+              <!-- bottle image -->
+              <div>
+                <a href="/products/{{ product.category }}/{{ product.url }}"
+                 class="bottle" id="{{ product.id }}-bottle">
+                  <img src="/static/images/bottle-images/{{ product.imageName }}"
+                   alt="{{ product.imageAltName }}">
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="preview-text">
-            <a href="/products/{{ item.categoryName }}/{{ product.url }}">
-              <p class="preview-text-content" style="color: black;"
-               id="{{ product.tag-name }}-text" ">
-                {{ product.preview-text }}
-              </p>
-            </a>
-          </div>
+              <div class="text-center product-name" id="{{ product.id }}-name">
+                <a href="/products/{{ product.category }}/{{ product.url }}"
+                 id="{{ product.id }}-link" class="">
+                  <div class=" ">
+                    {{ product.displayName }}
+                  </div>
+                </a>
+              </div>
+              <div class="preview-text">
+                <a href="/products/{{ product.category }}/{{ product.url }}">
+                  <p class="preview-text-content" style="color: black;"
+                   id="{{ product.id }}-text" ">
+                    {% assign previewText = product.description | normalize_whitespace %}
+                    {{ previewText | truncate: 80 }}
+                  </p>
+                </a>
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
         </div>
-        {% endfor %}
-      </div>
       {% endfor %}

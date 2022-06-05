@@ -46,20 +46,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
     crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../../../static/mobile_nav.js"></script>
-    <script type="text/javascript" src="../../../static/age_checker.js"></script>
-    <script type="text/javascript" src="../../../static/adjust_footer.js"></script>
+    <script type="text/javascript" src="/static/mobile_nav.js"></script>
+    <script type="text/javascript" src="/static/age_checker.js"></script>
+    <script type="text/javascript" src="/static/adjust_footer.js"></script>
     {% if page.title == 'Products' or page.layout == 'campaign' %}
-      <script type="text/javascript" src="../../../static/bottle_select.js"></script>
+      <script type="text/javascript" src="/static/bottle_select.js"></script>
     {% endif %}
-    {% if page.layout == 'product' %}
-      <script type="text/javascript" src="../../../static/adjust_para_spacing.js"></script>
-    {% endif %}
-    {% if page.title == 'Stockists' %}
-      <script type="text/javascript" src="../../../static/adjust_para_spacing.js"></script>
-    {% endif %}
-    {% if page.title == 'Home' %}
-      <script type="text/javascript" src="../../../static/adjust_para_spacing.js"></script>
+    {% if page.layout == 'product' or page.title == 'Stockists' or page.title == 'Home' %}
+      <script type="text/javascript" src="/static/adjust_para_spacing.js"></script>
     {% endif %}
 
   </body>
