@@ -5,5 +5,8 @@ collections:
   campaigns:
     output: true
     permalink: /campaigns/:path/
+  shop:
+    output: true
+    permalink: /shop/:path/
 # plugins:
   # - jekyll-target-blank

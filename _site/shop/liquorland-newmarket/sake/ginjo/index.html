@@ -15,6 +15,8 @@
       <link rel="stylesheet" href="/static/product_page_styles.css">
     
     
+      <link rel="stylesheet" href="/static/shop_page_styles.css">
+    
 
 
     <!-- Google fonts -->
@@ -88,24 +90,8 @@
 
 
 <div class="row">
-  <div class="col product-dir">
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="/products">products</a>
-        </li>
-        <li class="breadcrumb-item">
-          <a href="/products#sake">sake</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">ginjo</li>
-      </ol>
-    </nav>
-  </div>
-</div>
-
-<div class="row">
   <div class="col">
-    <h3>Ginjo junmai-shu 720ml</h3>
+    <h3 class="shop-header">Ginjo junmai-shu 720ml</h3>
   </div>
 </div>
 
@@ -221,10 +207,17 @@
     </div>
   </div>
 
-  <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-start btl-img
-   justify-content-center order-1 order-md-2">
-    <img src="/static/images/bottle-images/ginjo.png"
-     alt="ginjo sake bottle" class="pl-0 ml-0" id="product-img">
+  <div class="col col-sm-12 col-md-4 col-lg-4 btl-img order-1 order-md-2 text-center">
+    <div class="">
+      <img src="/static/images/bottle-images/ginjo.png"
+       alt="ginjo sake bottle" class="pl-0 ml-0 img-fluid" id="product-img">
+    </div>
+     <div class="shop-price">
+       $51.99
+     </div>
+     <div class="shop-retailer">
+       at <a href="https://www.shop.liquorland.co.nz/Nakano-Ginjo-Kinokuniya-Sake-720ml-P122755.aspx" target="_blank">Liquorland Newmarket</a>
+     </div>
   </div>
   <div class="col order-3" style="">
 
@@ -285,8 +278,6 @@
     <script type="text/javascript" src="/static/age_checker.js"></script>
     <script type="text/javascript" src="/static/adjust_footer.js"></script>
     
-    
-      <script type="text/javascript" src="/static/adjust_para_spacing.js"></script>
     
 
   </body>

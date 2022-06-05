@@ -5,24 +5,8 @@ layout: default
 {% assign product = site.data.products.skus | find: "id", page.name %}
 
 <div class="row">
-  <div class="col product-dir">
-    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="/products">products</a>
-        </li>
-        <li class="breadcrumb-item">
-          <a href="/products#{{ product.category }}">{{ product.category }}</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">{{ product.displayName }}</li>
-      </ol>
-    </nav>
-  </div>
-</div>
-
-<div class="row">
   <div class="col">
-    <h3>{{ product.displayHeader }}</h3>
+    <h3 class="shop-header">{{ product.displayHeader }}</h3>
   </div>
 </div>
 
@@ -64,10 +48,17 @@ layout: default
     </div>
   </div>
 
-  <div class="col col-sm-12 col-md-4 col-lg-4 d-flex align-items-start btl-img
-   justify-content-center order-1 order-md-2">
-    <img src="/static/images/bottle-images/{{ product.imageName }}"
-     alt="{{ product.imageAltName }}" class="pl-0 ml-0" id="product-img">
+  <div class="col col-sm-12 col-md-4 col-lg-4 btl-img order-1 order-md-2 text-center">
+    <div class="">
+      <img src="/static/images/bottle-images/{{ product.imageName }}"
+       alt="{{ product.imageAltName }}" class="pl-0 ml-0 img-fluid" id="product-img">
+    </div>
+     <div class="shop-price">
+       {{ page.price }}
+     </div>
+     <div class="shop-retailer">
+       at <a href="{{ page.storeUrl }}" target="_blank">{{ page.store }}</a>
+     </div>
   </div>
   <div class="col order-3" style="">
 
