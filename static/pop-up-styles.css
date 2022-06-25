@@ -63,6 +63,22 @@
   border: 1px solid white;
 }
 
+
+.over-18-button-inactive{
+  color: grey;
+  border: 1px solid grey;
+}
+
+.over-18-button-inactive:hover{
+  cursor: auto;
+  /* display: none !important; */
+  color: grey !important;
+  background-color: white !important;
+  /* border: 1px solid black; */
+  border: 1px solid grey;
+
+}
+
 #pop-up-container{
   width: 100%;
   padding-right: var(--bs-gutter-x, .75rem);
