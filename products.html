@@ -13,7 +13,7 @@ description: Nakano BC's range of sake, umeshu (plum wine) and spirits available
       {% for category in site.data.product-categories.categories %}
         <div class="row product-header">
           <div class="col">
-            <h4 id="{{ item.headingID }}" class="">{{ category.categoryName | capitalize }}</h4>
+            <h4 id="{{ category.categoryName }}">{{ category.categoryName | capitalize }}</h4>
           </div>
         </div>
 
