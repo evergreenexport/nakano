@@ -33,6 +33,10 @@ regions:
     - name: Liquorland Newmarket
       url: https://www.liquorland.co.nz/stores/newmarket/
 
+    - name: Liquorland Remuera
+      url: https://www.liquorland.co.nz/stores/remuera/
+      extraText: (sake only)
+
     - name: Liquorland Stonefields
       url: https://www.liquorland.co.nz/stores/stonefields/
 
@@ -80,6 +84,13 @@ regions:
       url: https://moorewilsons.co.nz/porirua
 
 
+- region: North Canterbury
+  stores:
+    - name: Liquorland Rangiora
+      url: https://www.liquorland.co.nz/stores/rangiora/
+      extraText: (umeshu only)
+
+
 - region: Christchurch
   stores:
     - name: Liquorland Bishopdale
@@ -89,6 +100,10 @@ regions:
     - name: Liquorland Blenheim Road
       url: https://www.liquorland.co.nz/stores/blenheim-road/
 
+    - name: Liquorland Carlton
+      url: https://www.liquorland.co.nz/stores/carlton/
+      extraText: (umeshu and spirits only)
+
     - name: Liquorland Church Corner
       url: https://www.liquorland.co.nz/stores/church-corner/
 
@@ -96,8 +111,29 @@ regions:
       url: https://www.liquorland.co.nz/stores/riccarton/
       extraText: (umeshu only)
 
+    - name: Liquorland Woolston
+      url: https://www.liquorland.co.nz/stores/riccarton/
+
+    - name: Liquorland Yaldhurst
+      url: https://www.liquorland.co.nz/stores/riccarton/
+      extraText: (umeshu only)
+
     - name: Vino Fino, Durham Street South
       url: https://www.vinofino.co.nz/
+
+
+- region: Queenstown / Arrowtown
+  stores:
+    - name: Arrowtown Wine Store
+      url: http://www.arrowtownwinestore.co.nz/
+      extraText: (umeshu only)
+
+
+- region: Dunedin
+  stores:
+    - name: Liquorland Andersons Bay
+      url: https://www.liquorland.co.nz/stores/andersons-bay/
+
 
 - region: Online
   stores:

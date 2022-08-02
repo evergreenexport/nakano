@@ -2,6 +2,7 @@
 layout: default
 title: Stockists
 description: Retailers of Nakano sake, umeshu (plum wine) and spirits in NZ.
+lastUpdated: 2 August 2022
 ---
 
 <div class="row">
@@ -12,6 +13,7 @@ description: Retailers of Nakano sake, umeshu (plum wine) and spirits in NZ.
           Please check the retailer's website or call ahead to make
           sure they have stock of the product you're looking for.
         </p>
+        <p><i>Last updated: {{ page.lastUpdated }}</i></p>
       </div>
       <div class="paras-spacer"></div>
     {% for item in site.data.stockists.regions %}
