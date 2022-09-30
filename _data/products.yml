@@ -109,11 +109,11 @@ skus:
 - id: ultra-white
   category: sake
   imageName: ultra-white.png
-  imageAltName: ultra ginjo sake bottle
-  url: ultra
-  metaDescription: Nakano ultra gino junmai-shu sake, commissioned for the exclusive Kitcho restaurant.
-  displayName: ultra
-  displayHeader: Ultra junmai-ginjo 720ml
+  imageAltName: ultra white ginjo sake bottle
+  url: ultra-white
+  metaDescription: Nakano ultra ginjo junmai-shu sake (white label), commissioned for the exclusive Kitcho restaurant.
+  displayName: ultra (white label)
+  displayHeader: Ultra junmai-ginjo (white label) 720ml
   description: |
     Originally commissioned for the exclusive Kitcho (吉兆) restaurant, which many critics consider as the icon of Japanese haute cuisine.
 
@@ -123,12 +123,38 @@ skus:
 
     Serve chilled.
   productImage: ultra-white.png
-  smoothDryImage: ultra-smooth-dry.svg
-  bodyImage: ultra-body.svg
+  smoothDryImage: ultra-white-smooth-dry.svg
+  bodyImage: ultra-white-body.svg
   serveWarm: false
   serveHot: false
   chilledTemp: 5° - 10°
   hasAwards: false
+  volume: 720ml
+  alcoholContent: 16%
+
+
+- id: ultra-red
+  category: sake
+  imageName: ultra-red.png
+  imageAltName: ultra red ginjo sake bottle
+  url: ultra-red
+  metaDescription: Nakano ultra ginjo junmai-shu sake (red label), brewed 100% with the rich yet complex bizen-omachi rice, also known as "the phantom sake rice" for its scarceness and difficulty to grow.
+  displayName: ultra (red label)
+  displayHeader: Ultra junmai-ginjo (red label) 720ml
+  description: |
+    Brewed 100% with the rich yet complex bizen-omachi rice, also known as "the phantom sake rice" for its scarceness and difficulty to grow.
+
+    The result is an elegant ginjō, juicy and full of umami, balanced with moderate tartness and an extra long and crisp finish. Enjoy with bold flavours like blue cheese or smoked meats.
+
+    Serve chilled.
+  productImage: ultra-red.png
+  smoothDryImage: ultra-red-smooth-dry.svg
+  bodyImage: ultra-red-body.svg
+  serveWarm: false
+  serveHot: false
+  chilledTemp: 5° - 10°
+  hasAwards: true
+  awardName: Platinum award winner at the Kura Master Competition in France.
   volume: 720ml
   alcoholContent: 16%
 
@@ -225,6 +251,40 @@ skus:
   volume: 720ml
   alcoholContent: 14%
   description: Nakano umeshu, served with whole Nanko ume plums.
+
+
+- id: green-tea
+  displayName: green tea umeshu
+  displayHeader: Green tea umeshu 720ml
+  category: umeshu
+  imageName: green-tea.png
+  imageAltName: green tea infused umeshu bottle
+  url: green-tea
+  metaDescription: Nakano umeshu, infused with green tea (ryoku-cha).
+  hasAwards: false
+  volume: 720ml
+  alcoholContent: 12%
+  description: |
+    Nakano umeshu, infused with green tea (ryoku-cha).
+
+    A refreshing balance from the astringency of green tea, paired with the aroma and tartness of Nakano’s umeshu.
+
+
+- id: shiso
+  displayName: red shiso umeshu
+  displayHeader: Red shiso umeshu 720ml
+  category: umeshu
+  imageName: shiso.png
+  imageAltName: shiso umeshu bottle
+  url: shiso
+  metaDescription: Nakano umeshu, infused with red shiso (perilla, also known as Japanese mint).
+  hasAwards: false
+  volume: 720ml
+  alcoholContent: 12%
+  description: |
+    Nakano umeshu, infused with red shiso (perilla, also known as Japanese mint).
+
+    A refreshing blend of the acidity and aroma of the red shiso alongside the sweetness and tartness of Nakano umeshu.
 
 
 - displayName: kozue gin

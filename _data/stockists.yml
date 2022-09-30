@@ -33,6 +33,9 @@ regions:
     - name: Liquorland Newmarket
       url: https://www.liquorland.co.nz/stores/newmarket/
 
+    - name: Liquorland Ponsonby
+      url: https://www.liquorland.co.nz/stores/ponsonby/
+
     - name: Liquorland Remuera
       url: https://www.liquorland.co.nz/stores/remuera/
       extraText: (sake only)
@@ -107,6 +110,9 @@ regions:
     - name: Liquorland Church Corner
       url: https://www.liquorland.co.nz/stores/church-corner/
 
+    - name: Liquorland Cranford
+      url: https://www.liquorland.co.nz/stores/cranford/
+
     - name: Liquorland Riccarton
       url: https://www.liquorland.co.nz/stores/riccarton/
       extraText: (umeshu only)
@@ -128,11 +134,20 @@ regions:
       url: http://www.arrowtownwinestore.co.nz/
       extraText: (umeshu only)
 
+    - name: Henry's Queenstown
+      url: https://www.henrys.co.nz/store-locations/henrys-queenstown
+
 
 - region: Dunedin
   stores:
+    - name: Henry's Dunedin
+      url: https://www.henrys.co.nz/store-locations/henrys-dunedin
+      extraText: (umeshu and gin)
+
     - name: Liquorland Andersons Bay
       url: https://www.liquorland.co.nz/stores/andersons-bay/
+
+
 
 
 - region: Online
