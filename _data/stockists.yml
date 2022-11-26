@@ -4,17 +4,19 @@ regions:
   stores:
 
     - name: Liquorland Albany
-      url: https://www.liquorland.co.nz/stores/albany/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-albany
 
     - name: Liquorland Forrest Hill
-      url: https://www.liquorland.co.nz/stores/forrest-hill/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-forrest-hill
 
     - name: Liquorland Glenfield
-      url: https://www.liquorland.co.nz/stores/glenfield/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-glenfield
 
     - name: Liquorland Northcross
-      url: https://www.liquorland.co.nz/stores/northcross-browns-bay/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-northcross-browns-bay
       extraText: (Brown's Bay)
+
+
       # products:
       #  - product: junmai-shu
       #  - product: ginjo
@@ -28,30 +30,41 @@ regions:
       extraText: (gin only)
 
     - name: Liquorland Mt Eden
-      url: https://www.liquorland.co.nz/stores/mt-eden/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-mt-eden
 
     - name: Liquorland Newmarket
-      url: https://www.liquorland.co.nz/stores/newmarket/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-newmarket
 
     - name: Liquorland Ponsonby
-      url: https://www.liquorland.co.nz/stores/ponsonby/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-ponsonby
 
     - name: Liquorland Remuera
-      url: https://www.liquorland.co.nz/stores/remuera/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-remuera
       extraText: (sake only)
 
     - name: Liquorland Stonefields
-      url: https://www.liquorland.co.nz/stores/stonefields/
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-stonefields-lunn-ave
+
+    - name: Super Liquor Birkenhead
+      url: https://www.superliquor.co.nz/super-liquor-birkenhead
+      extraText: (umeshu only)
+
+
+- region: Bay of Plenty
+  stores:
+    - name: Super Liquor Papamoa
+      url: https://www.superliquor.co.nz/super-liquor-papamoa
+      extraText: (umeshu and gin)
 
 
 - region: New Plymouth
   stores:
 
     - name: Liquorland Courtenay Street
-      url: https://www.liquorland.co.nz/stores/courtenay-street/
+      url: https://www.liquorland.co.nz/stores/north-island/taranaki-/-manawatu/liquorland-courtenay-street
 
     - name: Liquorland Fitzroy
-      url: https://www.liquorland.co.nz/stores/fitzroy/
+      url: https://www.liquorland.co.nz/stores/north-island/taranaki-/-manawatu/liquorland-fitzroy
 
 
 - region: Hawke's Bay
@@ -63,13 +76,13 @@ regions:
 - region: Palmerston North
   stores:
     - name: Liquorland Albert Street
-      url: https://www.liquorland.co.nz/stores/albert-street/
+      url: https://www.liquorland.co.nz/stores/north-island/taranaki-/-manawatu/liquorland-albert-street
 
     - name: Liquorland Grey Street
-      url: https://www.liquorland.co.nz/stores/grey-street/
+      url: https://www.liquorland.co.nz/stores/north-island/taranaki-/-manawatu/liquorland-grey-street
 
     - name: Liquorland Pioneer Highway
-      url: https://www.liquorland.co.nz/stores/pioneer-highway/
+      url: https://www.liquorland.co.nz/stores/north-island/taranaki-/-manawatu/liquorland-pioneer-highway
 
 
 - region: Wairarapa
@@ -90,38 +103,42 @@ regions:
 - region: North Canterbury
   stores:
     - name: Liquorland Rangiora
-      url: https://www.liquorland.co.nz/stores/rangiora/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-rangiora
       extraText: (umeshu only)
 
 
 - region: Christchurch
   stores:
     - name: Liquorland Bishopdale
-      url: https://www.liquorland.co.nz/stores/bishopdale/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-bishopdale
       extraText: (spirits only)
 
     - name: Liquorland Blenheim Road
-      url: https://www.liquorland.co.nz/stores/blenheim-road/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-blenheim-road
 
     - name: Liquorland Carlton
-      url: https://www.liquorland.co.nz/stores/carlton/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-carlton
       extraText: (umeshu and spirits only)
 
     - name: Liquorland Church Corner
-      url: https://www.liquorland.co.nz/stores/church-corner/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-church-corner-riccarton
 
     - name: Liquorland Cranford
-      url: https://www.liquorland.co.nz/stores/cranford/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-cranford
 
     - name: Liquorland Riccarton
       url: https://www.liquorland.co.nz/stores/riccarton/
       extraText: (umeshu only)
 
+    - name: Liquorland Rolleston Drive
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-rolleston-drive-rolleston
+      extraText: (umeshu only)
+
     - name: Liquorland Woolston
-      url: https://www.liquorland.co.nz/stores/riccarton/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-riccarton
 
     - name: Liquorland Yaldhurst
-      url: https://www.liquorland.co.nz/stores/riccarton/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-yaldhurst
       extraText: (umeshu only)
 
     - name: Vino Fino, Durham Street South
@@ -140,14 +157,12 @@ regions:
 
 - region: Dunedin
   stores:
-    - name: Henry's Dunedin
-      url: https://www.henrys.co.nz/store-locations/henrys-dunedin
+    - name: Liquorland Dunedin City Centre
+      url: https://www.liquorland.co.nz/stores/south-island/otago/liquorland-city-centre
       extraText: (umeshu and gin)
 
     - name: Liquorland Andersons Bay
-      url: https://www.liquorland.co.nz/stores/andersons-bay/
-
-
+      url: https://www.liquorland.co.nz/stores/south-island/otago/liquorland-andersons-bay
 
 
 - region: Online
