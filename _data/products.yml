@@ -2,18 +2,22 @@ skus:
 
 - id: junmai-shu
   category: sake
+  description: |
+    Nakano’s multi-award winning signature junmai-shu sake.
+
+    Smooth, full-bodied and carefully crafted using yamada-nishiki (the King of sake
+    rice - sometimes also called the cabernet sauvignon of sake rice) and dewasanzan
+    (rice famous for its rich aroma). The balance of umami, a slight tartness and fruity
+    notes makes for a superbly drinkable junmai-shu.
+
+    Pairs well with robust flavours, e.g. soy sauce based dishes, oysters, or a paella.
+
   displayName: junmai-shu
   displayHeader: Junmai-shu 720ml
   imageName: junmai-shu.png
   imageAltName: junmai shu sake bottle
   url: junmai-shu
   metaDescription: Nakano junmai-shu sake - from the Kinokuniya Bunzaemon series.
-  description: |
-    Nakano’s multi-award winning signature junmai-shu sake.
-
-    Smooth, full-bodied and carefully crafted using yamada-nishiki (the ‘King’ of sake rice) and dewasanzan (rice famous for its rich aroma).
-
-    The balance of umami and slightly tart and fruity notes makes for a superbly drinkable junmai-shu.
   medalImage: junmai-shu-medal.svg
   smoothDryImage: junmai-smooth-dry.svg
   bodyImage: junmai-body.svg
@@ -30,21 +34,26 @@ skus:
 - id: namachozo
   category: sake
   description: |
-    This junmai-shu is brewed using the same dewasanzan and yamada-nishiki rice grains as Nakano’s signature junmai-shu, which gives the sake the same delicate balance of umami, tartness and fruity notes.
+    This junmai-shu is brewed using the same yamada-nishiki and dewasanzan rice
+    grains as Nakano’s signature junmai-shu, which gives the sake the same delicate
+    balance of umami, tartness and fruity notes.
 
-    The sake is then raw-stored (this is the namachozō style, as sake is usually pasteurised first), for an extra crisp and refreshing finish.
+    The sake is then raw-stored (this is the namachozō style, as sake is usually
+    pasteurised first). This gives the sake a longer finish and a more distinctive
+    aroma.
 
-    From Nakano’s multi-award-winning Kinokuniya Bunzaemon series.
+    Serve chilled or warm.
+
   displayHeader: Namachozo junmai-shu 720ml
   displayName: namachozo
   hasAwards: false
   imageAltName: namachozo sake bottle
   imageName: namachozo.png
-  metaDescription: Nakano namachozo junmai-shu sake, from the Kinokuniya Bunzaemon series.
+  metaDescription: |
+    Nakano namachozo junmai-shu sake, from the Kinokuniya Bunzaemon series.
   url: namachozo
   alcoholContent: 15%
   volume: 720ml
-  # sake attributes
   bodyImage: namachozo-body.svg
   chilledTemp: 5° - 10°
   serveHot: false
@@ -55,18 +64,22 @@ skus:
 
 - id: 500mangoku
   category: sake
+  description: |
+    A multi-award-winning dry and lighter junmai-shu sake.
+
+    The brewer's careful use of the distinctive *gohyakumangoku* rice variety
+    (translates to “5 million stones”, common in Japan’s northwest) makes for a
+    superbly refreshing sake, rich in aroma, and with a clean finish.
+
+    Recommended for lovers of warm sake.
+
   displayName: gohyakumangoku
   displayHeader: Gohyakumangoku 720ml
   imageName: 500mangoku.png
   imageAltName: gohyaku mangoku sake bottle
   url: gohyakumangoku
-  metaDescription: Nakano gohyakumangoku junmai-shu sake - from the Kinokuniya Bunzaemon series.
-  description: |
-    A multi-award-winning dry and lighter junmai-shu sake.
-
-    The brewer's careful use of the distinctive gohyakumangoku rice variety (translates to “5 million stones”, common in Japan’s northwest) makes for a superbly refreshing sake, rich in aroma, and with a clean finish.
-
-    Recommended for lovers of warm sake.
+  metaDescription: |
+    Nakano gohyakumangoku junmai-shu sake recommended for lovers of hot sake.
   hasAwards: true
   awardName: Gold at the Japan Kan Sake Awards
   medalImage: 500mangoku-medal.svg
@@ -83,16 +96,21 @@ skus:
 
 - id: ginjo
   category: sake
+  description: |
+    A smooth, aromatic and fruity sake. Brewed using yamada-nishiki (the King of
+    sake rice) and omachi rice (famous for its complexity). The word “ginjō” means
+    that at least 40% of the rice has been polished off - sake in this category
+    tends to be sweeter, with a fruitier aroma.
+
+    Enjoy this sake as the main event, or paired with a soft cheese. Try using a wider
+    glass where you can experience the full fruity aroma.
+
   displayName: ginjo
   displayHeader: Ginjo junmai-shu 720ml
   metaDescription: Nakano ginjo junmai-shu sake - from the Kinokuniya Bunzaemon series.
   imageName: ginjo.png
   imageAltName: ginjo sake bottle
   url: ginjo
-  description: |
-    A multi-award-winning extra smooth and aromatic junmai-ginjō (extra premium) edition from Nakano’s Kinokuniya Bunzaemon (KB) series.
-
-    This ginjō retains Nakano’s signature craftsmanship, with umami and slightly tart and fruity notes carefully balanced. The enhanced polish ratio and careful blending of yamada-nishiki (the ‘King’ of sake rice) and omachi rice (famous for its complexity) amplify the sake’s smoothness and aroma.
   medalImage: ginjo-medal.svg
   smoothDryImage: ginjo-smooth-dry.svg
   bodyImage: ginjo-body.svg
@@ -111,17 +129,20 @@ skus:
   imageName: ultra-white.png
   imageAltName: ultra white ginjo sake bottle
   url: ultra-white
-  metaDescription: Nakano ultra ginjo junmai-shu sake (white label), commissioned for the exclusive Kitcho restaurant.
+  metaDescription: |
+    Nakano ultra ginjo junmai-shu sake (white label), designed to be the ultimate
+    meal time sake.
   displayName: ultra (white label)
   displayHeader: Ultra junmai-ginjo (white label) 720ml
   description: |
-    Originally commissioned for the exclusive Kitcho (吉兆) restaurant, which many critics consider as the icon of Japanese haute cuisine.
+    This sake has been designed with the goal of making the ultimate sake to enjoy
+    with food.
 
-    Brewed with yamada-nishiki and omachi rice. Strong-bodied, full of umami, with a slight firmness.
+    Pairs well with lighter, more delicate flavours, e.g. sushi or tempura.
 
-    The sake is raw-stored at -5°C for at least 3 years to embed its ripeness, giving a long and crisp finish.
-
-    Serve chilled.
+    Strong-bodied, full of umami, with a slight firmness and a crisp finish. After
+    brewing, the sake has been raw-stored at -5°C for at least 3 years to embed its
+    ripeness.
   productImage: ultra-white.png
   smoothDryImage: ultra-white-smooth-dry.svg
   bodyImage: ultra-white-body.svg
@@ -138,15 +159,20 @@ skus:
   imageName: ultra-red.png
   imageAltName: ultra red ginjo sake bottle
   url: ultra-red
-  metaDescription: Nakano ultra ginjo junmai-shu sake (red label), brewed 100% with the rich yet complex bizen-omachi rice, also known as "the phantom sake rice" for its scarceness and difficulty to grow.
+  metaDescription: |
+    Nakano ultra ginjo junmai-shu sake (red label), brewed 100% with the rich yet
+    complex bizen-omachi rice, also known as "the phantom sake rice" for its
+    scarceness and difficulty to grow.
   displayName: ultra (red label)
   displayHeader: Ultra junmai-ginjo (red label) 720ml
   description: |
-    Brewed 100% with the rich yet complex bizen-omachi rice, also known as "the phantom sake rice" for its scarceness and difficulty to grow.
+    Brewed 100% with the rich yet complex bizen-omachi rice, also known as "the
+    phantom sake rice" for its scarceness and difficulty to grow.
 
-    The result is an elegant ginjō, juicy and full of umami, balanced with moderate tartness and an extra long and crisp finish. Enjoy with bold flavours like blue cheese or smoked meats.
+    It has a smoother, juicy flavour profile (the Bordeaux red of the sake world),
+    full of umami, and balanced with a tartness and crisp finish that still makes it moreish.
 
-    Serve chilled.
+    This sake is best enjoyed from a wine glass where you can enjoy its full aroma.
   productImage: ultra-red.png
   smoothDryImage: ultra-red-smooth-dry.svg
   bodyImage: ultra-red-body.svg
@@ -157,6 +183,99 @@ skus:
   awardName: Platinum award winner at the Kura Master Competition in France.
   volume: 720ml
   alcoholContent: 16%
+
+- id: ultra-super-dry
+  category: sake
+  imageName: ultra-super-dry.png
+  imageAltName: ultra super dry junmai-shu sake bottle
+  url: ultra-super-dry
+  metaDescription: Nakano ultra super dry junmai-shu sake.
+  displayName: ultra (super dry)
+  displayHeader: Ultra super dry 720ml
+  description: |
+    Brewed to extract the very maximum umami from rice, this junmai-shu from
+    Nakano's ultra series measures +17.8 on the sake scale. While this places it
+    at the super-dry end of the sake spectrum at face value, it carries an umami
+    that blooms in the mouth, giving the sake a gentler flavour profile.
+
+    This is a junmai-shu that allows the drinker to enjoy both the true umami of
+    rice, alongside a very clean finish.
+  productImage: ultra-super-dry.png
+  smoothDryImage: ultra-super-dry-smooth-dry.svg
+  bodyImage: ultra-super-dry-body.svg
+  serveWarm: false
+  serveHot: true
+  chilledTemp: 5° - 10°
+  hotTemp: 50°
+  hasAwards: false
+  volume: 720ml
+  alcoholContent: 19%
+
+- id: ultra-green
+  category: sake
+  imageName: ultra-green.png
+  imageAltName: ultra green ginjo sake bottle
+  url: ultra-green
+  metaDescription: |
+    Nakano ultra ginjo junmai-shu sake (green label), brewed using 100% yamada-
+    nishiki rice from the Kita-ikiki collective in the Kyushu highlands.
+  displayName: ultra (green label)
+  displayHeader: Ultra junmai-ginjo (green label) 720ml
+  description: |
+    Brewed using 100% yamada-nishiki rice (aka the King of sake rice - sometimes
+    also called the cabernet sauvignon of sake rice) from the Kita-iki-iki Collective
+    in Minami-aso village in the Kyushu highlands, who are famous for their pure waters
+    and sustainable farming methods.
+
+    The rice is polished down to 55% to produce a very clear sake, with elegant
+    aroma and subtle umami.
+
+    The sake rice has been grown using “natural cultivation”. This is a farming
+    method that does not use any pesticides, herbicides or fertilisers (including
+    organic fertilisers). It relies solely on the power of nature to grow crops.
+    The yield is lower than more traditional rice farming and weeding is more
+    difficult. There is no compromise on the quality of the sake rice, while the
+    beautiful Minami-aso environment is safeguarded for future generations.
+
+    Pair this sake with snacks or dishes with a good umami profile, e.g. mushroom
+    risotto, avocado, parmesan or gouda cheese, or tomato based pasta dishes.
+  productImage:  ultra-green.png
+  smoothDryImage: ultra-green-smooth-dry.svg
+  bodyImage: ultra-green-body.svg
+  serveWarm: false
+  serveHot: false
+  chilledTemp: 5° - 10°
+  hasAwards: false
+  volume: 720ml
+  alcoholContent: 16%
+
+- id: josen
+  category: sake
+  description: |
+    A smooth sake that can be particularly enjoyed heated, with an umami that
+    blooms in the mouth. When heated to 50°C, you can enjoy the rich rice aroma.
+    Even when heated it retains its smoothness and clean finish, without any
+    bitterness developing.
+
+    Pairs well with seafood and poultry dishes.
+
+    Serve chilled or hot (around 50°C)
+
+  imageName: josen.png
+  imageAltName: josen sake 180ml cup
+  url: josen
+  metaDescription: Josen cup sake from Nakano.
+  displayName: josen cup 180ml
+  displayHeader: Josen sake cup 180ml
+  productImage:  josen.png
+  smoothDryImage: josen-smooth-dry.svg
+  bodyImage: josen-body.svg
+  serveHot: true
+  chilledTemp: 5° - 10°
+  hotTemp: 50°
+  hasAwards: false
+  volume: 160ml
+  alcoholContent: 15%
 
 
 - id: umeshu
@@ -171,11 +290,17 @@ skus:
   volume: 720ml
   alcoholContent: 14%
   description: |
-    Handcrafted using 100% Nanko ume grown in Japan’s Wakayama prefecture, a region famous for its ume (Japanese plums).
+    Crafted using 100% Nanko ume grown in Japan’s Wakayama prefecture, which
+    have been hand-sorted and soaked in alcohol on the same day they’ve been
+    harvested.
 
-    A balance of initial sweetness and refreshing tartness. Enjoy as an aperitif served straight, on the rocks, or with a splash of soda.
+    A balance of initial sweetness and refreshing tartness. Enjoy as an aperitif
+    served straight, on the rocks, or with a splash of soda.
 
-    Nakano umeshu has Geographic Indication (GI) status as Wakayama Umeshu in Japan (the first liqueur, and thirteenth alcoholic beverage overall with GI status in Japan).
+    Nanko ume are widely regarded as the premier ume for making umeshu, due to
+    their abundant flesh, soft peach-like aroma and high organic acid content.
+    Wakayama Prefecture is the most famous region in Japan for ume production (in
+    particular for nanko ume) due to its favourable climate.
 
 
 - id: yuzu
@@ -190,7 +315,10 @@ skus:
   awardName: Gold at the Lyon Spirits Competition
   volume: 720ml
   alcoholContent: 12%
-  description: A unique blend of refreshing yuzu juice (Japanese citrus), beautifully blended with Nakano umeshu.
+  description: |
+    A refreshing blend of real yuzu juice (Japanese citrus) and Nakano's umeshu
+    (plum wine). A balance of the aroma and sweetness of umeshu, with the acidity
+    and citrus notes of yuzu.
 
 
 - id: honey
@@ -216,14 +344,18 @@ skus:
   url: ume-liqueur
   metaDescription: Nakano ume liqueur crafted from with crimson ripened (beninanko) ume plums.
   hasAwards: true
-  awardName: Grand Prix Winner at the inaugural Osaka Tenjin Umeshu Competition (Japan’s biggest umeshu competition).
+  awardName: |
+    Grand Prix Winner at the inaugural Osaka Tenjin Umeshu Competition (Japan’s
+    biggest umeshu competition).
   volume: 720ml
   alcoholContent: 20%
   description: |
-    An extra premium ume (plum) liqueur, handcrafted using only crimson ripened nanko ume from Wakayama (called "beninanko"), which have been hand-selected one-by-one and soaked in spirits on the same day.
+    An umeshu (plum wine) made with 100% crimson coloured nanko ume (plums) from
+    Wakayama Prefecture, which have been soaked in spirits on the same day they
+    are harvested. The producer also uses 150% the ume (plums) of Nakano’s signature
+    umeshu.
 
-    The producer uses one-and-a-half times the plums of Nakano’s signature umeshu, producing a liqueur with accentuated richness and flavour.
-
+    The result is even more richness from the ume and a gentle peach-like fragrance.
 
 - id: mi-iri-160
   displayName: umeshu with whole ume 160ml
@@ -236,7 +368,14 @@ skus:
   hasAwards: false
   volume: 160ml
   alcoholContent: 14%
-  description: Nakano umeshu, served with whole Nanko ume plums.
+  description: |
+    Nakano umeshu, served with whole Nanko ume plums.
+
+    Nanko ume are widely regarded as the premier ume for making umeshu, due to
+    their abundant flesh, soft peach-like aroma and high organic acid content.
+    Wakayama Prefecture is the most famous region in Japan for ume production (in
+    particular for nanko ume) due to its favourable climate.
+
 
 
 - displayName: umeshu with whole ume 720ml
@@ -250,7 +389,13 @@ skus:
   hasAwards: false
   volume: 720ml
   alcoholContent: 14%
-  description: Nakano umeshu, served with whole Nanko ume plums.
+  description: |
+    Nakano umeshu, served with whole Nanko ume plums.
+
+    Nanko ume are widely regarded as the premier ume for making umeshu, due to
+    their abundant flesh, soft peach-like aroma and high organic acid content.
+    Wakayama Prefecture is the most famous region in Japan for ume production (in
+    particular for nanko ume) due to its favourable climate.
 
 
 - id: green-tea
@@ -267,7 +412,8 @@ skus:
   description: |
     Nakano umeshu, infused with green tea (ryoku-cha).
 
-    A refreshing balance from the astringency of green tea, paired with the aroma and tartness of Nakano’s umeshu.
+    A refreshing balance from the astringency of green tea, paired with the
+    aroma and tartness of Nakano’s umeshu.
 
 
 - id: shiso
@@ -284,7 +430,8 @@ skus:
   description: |
     Nakano umeshu, infused with red shiso (perilla, also known as Japanese mint).
 
-    A refreshing blend of the acidity and aroma of the red shiso alongside the sweetness and tartness of Nakano umeshu.
+    A refreshing blend of the acidity and aroma of the red shiso alongside the
+    sweetness and tartness of Nakano umeshu.
 
 
 - displayName: kozue gin
@@ -296,9 +443,11 @@ skus:
   displayHeader: Kozue gin 700ml
   metaDescription: Kozue Japanese craft gin - with koyamaki umbrella pine and sansho pepper.
   description: |
-    Handcrafted in small batches, using Japanese botanicals: koyamaki umbrella pine, lemon peel, unshu mandarin peel, and sansho pepper.
+    Handcrafted in small batches, using Japanese botanicals: koyamaki umbrella
+    pine, lemon peel, unshu mandarin peel, and sansho pepper.
 
-    Presents a delicate balance of floral pine, wild berry and sansho pepper notes on the nose, while the koyamaki pine provides a clean finish.
+    Presents a delicate balance of floral pine, wild berry and sansho pepper
+    notes on the nose, while the koyamaki pine provides a clean finish.
   hasAwards: true
   awardName: Gold at the Lyon Spirits Competition
   volume: 700ml
@@ -308,9 +457,14 @@ skus:
 - displayName: kodachi gin
   category: spirits
   description: |
-    Handcrafted in small batches using Japanese botanicals: sugi (Japanese redwood), hinoki (Japanese cypress), lemon peel, unshu mandarin peel, and sansho pepper. The sugi and hinoki evoke the spectacular forests of the nearby Kumano pilgrimage route.
+    Handcrafted in small batches using Japanese botanicals: sugi (Japanese
+    redwood), hinoki (Japanese cypress), lemon peel, unshu mandarin peel, and
+    sansho pepper. The sugi and hinoki evoke the spectacular forests of the
+    nearby Kumano pilgrimage route.
 
-    The unique combination of sugi and hinoki combined with juniper results in a deeper aroma, balanced with citrus, while the sansho pepper notes provide some sharpness.
+    The unique combination of sugi and hinoki combined with juniper results in a
+    deeper aroma, balanced with citrus, while the sansho pepper notes provide
+    some sharpness.
   imageName: kodachi.png
   imageAltName: kodachi gin bottle
   id: kodachi

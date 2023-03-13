@@ -35,51 +35,82 @@
   <div class="col-4 col-sm-3 text-end">
     serve
   </div>
-  {% if product.serveHot %}
   <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xxl-7 recommended-temp">
-  <!-- <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-4 recommended-temp"> -->
-  {% else %}
-  <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xxl-7 recommended-temp">
-  <!-- <div class="col-7 col-sm-5 col-md-6 col-lg-6 col-xl-6 col-xxl-4 recommended-temp"> -->
-  {% endif %}
     <div class="row">
+      {% if product.serveWarm and product.serveHot %}
       <div class="col chilled">
         {{ product.chilledTemp }}
       </div>
-      {% if product.serveWarm %}
       <div class="col warm">
         {{ product.warmTemp }}
       </div>
-      {% else %}
-      <div class="col">
-      </div>
-      {% endif %}
-      {% if product.serveHot %}
       <div class="col hot">
         {{ product.hotTemp }}
       </div>
+      {% elsif product.serveWarm %}
+      <div class="col chilled">
+        {{ product.chilledTemp }}
+      </div>
+      <div class="col warm">
+        {{ product.warmTemp }}
+      </div>
+      <div class="col">
+      </div>
+      {% elsif product.serveHot %}
+        <div class="col chilled">
+          {{ product.chilledTemp }}
+        </div>
+        <div class="col hot">
+          {{ product.hotTemp }}
+        </div>
+        <div class="col">
+        </div>
       {% else %}
+      <div class="col chilled">
+        {{ product.chilledTemp }}
+      </div>
+      <div class="col">
+      </div>
       <div class="col">
       </div>
       {% endif %}
     </div>
+
     <div class="row">
+      {% if product.serveWarm and product.serveHot %}
       <div class="col">
         chilled
       </div>
-      {% if product.serveWarm %}
       <div class="col">
         warm
       </div>
-      {% else %}
-      <div class="col">
-      </div>
-      {% endif %}
-      {% if product.serveHot %}
       <div class="col">
         hot
       </div>
+      {% elsif product.serveWarm %}
+      <div class="col">
+        chilled
+      </div>
+      <div class="col">
+        warm
+      </div>
+      <div class="col">
+      </div>
+      {% elsif product.serveHot %}
+        <div class="col">
+          chilled
+        </div>
+        <div class="col">
+          hot
+        </div>
+        <div class="col">
+        </div>
       {% else %}
+      <div class="col">
+        chilled
+      </div>
+      <div class="col">
+      </div>
       <div class="col">
       </div>
       {% endif %}

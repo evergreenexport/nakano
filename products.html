@@ -25,7 +25,7 @@ description: Nakano BC's range of sake, umeshu (plum wine) and spirits available
               <div>
                 <a href="/products/{{ product.category }}/{{ product.url }}"
                  class="bottle" id="{{ product.id }}-bottle">
-                  <img src="/static/images/bottle-images/{{ product.imageName }}"
+                  <img src="/static/images/bottle-images/gallery-images/{{ product.imageName }}"
                    alt="{{ product.imageAltName }}">
                 </a>
               </div>
@@ -37,12 +37,13 @@ description: Nakano BC's range of sake, umeshu (plum wine) and spirits available
                   </div>
                 </a>
               </div>
+
               <div class="preview-text">
                 <a href="/products/{{ product.category }}/{{ product.url }}">
                   <p class="preview-text-content" style="color: black;"
                    id="{{ product.id }}-text" ">
                     {% assign previewText = product.description | normalize_whitespace %}
-                    {{ previewText | truncate: 80 }}
+                    {{ previewText | truncate: 80  | markdownify }}
                   </p>
                 </a>
               </div>
