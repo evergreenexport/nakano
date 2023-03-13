@@ -9,10 +9,13 @@ body {
     linear-gradient(to bottom, pink 1px, transparent 1px); */
   font-family: 'Lato', sans-serif;
   line-height: 1.5 !important;
+  /* background-color: pink; */
+
 }
 
 .container{
   min-height: 101vh;
+  background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6{
