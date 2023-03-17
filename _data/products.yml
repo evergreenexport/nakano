@@ -10,7 +10,7 @@ skus:
     (rice famous for its rich aroma). The balance of umami, a slight tartness and fruity
     notes makes for a superbly drinkable junmai-shu.
 
-    Pairs well with robust flavours, e.g. soy sauce based dishes, oysters, or a paella.
+    Pairs well with robust flavours, e.g. soy sauce based dishes, rock oysters, or a paella.
 
   displayName: junmai-shu
   displayHeader: Junmai-shu 720ml
@@ -29,6 +29,10 @@ skus:
   awardName: Gold at the US National Sake Appraisal
   volume: 720ml
   alcoholContent: 15%
+  polishRatio: 65%
+  riceVarieties: yamada-nishiki, dewasanzan
+  fullProductName: Nakano Kinokuniya Bunzaemon Junmai-shu
+  sakeScaleValue: '+4'
 
 
 - id: namachozo
@@ -42,7 +46,8 @@ skus:
     pasteurised first). This gives the sake a longer finish and a more distinctive
     aroma.
 
-    Serve chilled or warm.
+    Just like Nakano's signature junmai-shu, this sake pairs well with robust
+    flavours, e.g. soy sauce based dishes, rock oysters, or a paella.
 
   displayHeader: Namachozo junmai-shu 720ml
   displayName: namachozo
@@ -60,6 +65,10 @@ skus:
   serveWarm: true
   smoothDryImage: namachozo-smooth-dry.svg
   warmTemp: ~ 40°
+  polishRatio: 65%
+  riceVarieties: yamada-nishiki, dewasanzan
+  fullProductName: Nakano Kinokuniya Bunzaemon Namachozo Junmai-shu
+  sakeScaleValue: '+3.5'
 
 
 - id: 500mangoku
@@ -70,6 +79,9 @@ skus:
     The brewer's careful use of the distinctive *gohyakumangoku* rice variety
     (translates to “5 million stones”, common in Japan’s northwest) makes for a
     superbly refreshing sake, rich in aroma, and with a clean finish.
+
+    Pairs well with lighter, more delicate flavours, e.g. sashimi, sushi, Bluff
+    oysters, or tempura.
 
     Recommended for lovers of warm sake.
 
@@ -92,6 +104,10 @@ skus:
   hotTemp: ~ 55°
   volume: 720ml
   alcoholContent: 15%
+  polishRatio: 65%
+  riceVarieties: gohyakumangoku
+  fullProductName: Nakano Kinokuniya Bunzaemon Gohyakumangoku Junmai-shu
+  sakeScaleValue: '+6'
 
 
 - id: ginjo
@@ -106,8 +122,8 @@ skus:
     glass where you can experience the full fruity aroma.
 
   displayName: ginjo
-  displayHeader: Ginjo junmai-shu 720ml
-  metaDescription: Nakano ginjo junmai-shu sake - from the Kinokuniya Bunzaemon series.
+  displayHeader: Ginjō junmai-shu 720ml
+  metaDescription: Nakano ginjō junmai-shu sake - from the Kinokuniya Bunzaemon series.
   imageName: ginjo.png
   imageAltName: ginjo sake bottle
   url: ginjo
@@ -122,6 +138,10 @@ skus:
   warmTemp: None
   volume: 720ml
   alcoholContent: 16%
+  polishRatio: 55%
+  riceVarieties: yamada-nishiki, omachi
+  fullProductName: Nakano Kinokuniya Bunzaemon Ginjō Junmai-shu
+  sakeScaleValue: '+3'
 
 
 - id: ultra-white
@@ -138,7 +158,8 @@ skus:
     This sake has been designed with the goal of making the ultimate sake to enjoy
     with food.
 
-    Pairs well with lighter, more delicate flavours, e.g. sushi or tempura.
+    Pairs well with lighter, more delicate flavours, e.g. sashimi, sushi, Bluff
+    oysters, or tempura.
 
     Strong-bodied, full of umami, with a slight firmness and a crisp finish. After
     brewing, the sake has been raw-stored at -5°C for at least 3 years to embed its
@@ -152,6 +173,10 @@ skus:
   hasAwards: false
   volume: 720ml
   alcoholContent: 16%
+  polishRatio: 55%
+  riceVarieties: yamada-nishiki, omachi
+  fullProductName: Nakano Chokyu (Ultra) Ginjō Junmai-shu (white label)
+  sakeScaleValue: '-4'
 
 
 - id: ultra-red
@@ -183,6 +208,10 @@ skus:
   awardName: Platinum award winner at the Kura Master Competition in France.
   volume: 720ml
   alcoholContent: 16%
+  polishRatio: 55%
+  riceVarieties: bizen-omachi
+  fullProductName: Nakano Chokyu (Ultra) Ginjō Junmai-shu (red label)
+  sakeScaleValue: '-4.5'
 
 - id: ultra-super-dry
   category: sake
@@ -200,6 +229,10 @@ skus:
 
     This is a junmai-shu that allows the drinker to enjoy both the true umami of
     rice, alongside a very clean finish.
+
+    Pairs well with lighter, more delicate flavours, e.g. sashimi, sushi, Bluff
+    oysters, tempura, or panko crumbed fish or chicken. Or enjoy as a palate
+    cleanser with fried foods like fish and chips.
   productImage: ultra-super-dry.png
   smoothDryImage: ultra-super-dry-smooth-dry.svg
   bodyImage: ultra-super-dry-body.svg
@@ -210,6 +243,9 @@ skus:
   hasAwards: false
   volume: 720ml
   alcoholContent: 19%
+  polishRatio: 65%
+  fullProductName: Nakano Chokyu (Ultra) Junmai-shu (super dry)
+  sakeScaleValue: '+18'
 
 - id: ultra-green
   category: sake
@@ -248,25 +284,28 @@ skus:
   hasAwards: false
   volume: 720ml
   alcoholContent: 16%
+  fullProductName: Nakano Chokyu (Ultra) Ginjo Junmai-shu (green label)
+  riceVarieties: Minami-Aso yamada-nishiki
+  sakeScaleValue: '+4.5'
+  polishRatio: 55%
 
 - id: josen
   category: sake
   description: |
-    A smooth sake that can be particularly enjoyed heated, with an umami that
-    blooms in the mouth. When heated to 50°C, you can enjoy the rich rice aroma.
-    Even when heated it retains its smoothness and clean finish, without any
-    bitterness developing.
+    A smooth sake that can be enjoyed chilled or heated, with an umami that
+    blooms in the mouth.
 
-    Pairs well with seafood and poultry dishes.
+    When heated to 50°C, the sake retains its smoothness and clean finish, without any
+    bitterness developing, and you can enjoy more of the rich rice aroma.
 
-    Serve chilled or hot (around 50°C)
+    Pairs well with seafood and chicken dishes.
 
   imageName: josen.png
   imageAltName: josen sake 180ml cup
   url: josen
-  metaDescription: Josen cup sake from Nakano.
-  displayName: josen cup 180ml
-  displayHeader: Josen sake cup 180ml
+  metaDescription: Josen (Blue Dragon) cup sake from Nakano.
+  displayName: Blue Dragon (josen) cup 180ml
+  displayHeader: Blue Dragon (josen) sake cup 180ml
   productImage:  josen.png
   smoothDryImage: josen-smooth-dry.svg
   bodyImage: josen-body.svg
@@ -274,8 +313,11 @@ skus:
   chilledTemp: 5° - 10°
   hotTemp: 50°
   hasAwards: false
-  volume: 160ml
+  volume: 180ml
   alcoholContent: 15%
+  fullProductName: Nakano Chokyu (Blue Dragon / josen) cup sake
+  sakeScaleValue: '+3.5'
+
 
 
 - id: umeshu

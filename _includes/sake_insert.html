@@ -2,8 +2,6 @@
   Profile:
 </div>
 
-
-
 <div class="row sake-profile sake-scales-nudge-top">
   <div class="col-4 col-sm-3 text-end">
     dry
@@ -117,5 +115,40 @@
     </div>
   </div>
   <div class="col">
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col">
+    <table class="table table-bordered table-responsive" style="font-size: 0.85rem;">
+      <tbody>
+          <tr class="d-flex">
+            <td class="col-5">alcohol/volume</td>
+            <td class="col">{{ product.alcoholContent }}</td>
+          </tr>
+          <tr class="d-flex">
+            <td class="col-5">volume</td>
+            <td class="col">{{ product.volume }}</td>
+          </tr>
+          {% if product.polishRatio %}
+          <tr class="d-flex">
+            <td class="col-5">rice polish ratio</td>
+            <td class="col">{{ product.polishRatio }}</td>
+          </tr>
+          {% endif %}
+          {% if product.riceVarieties %}
+          <tr class="d-flex">
+            <td class="col-5">rice varieties</td>
+            <td class="col">{{ product.riceVarieties }}</td>
+          </tr>
+          {% endif %}
+          <tr class="d-flex">
+            <td class="col-5">Japan sake scale value</td>
+            <td class="col">{{ product.sakeScaleValue }}</td>
+          </tr>
+          <tr class="d-flex">
+            <td class="col-5">full product name</td>
+            <td class="col">{{ product.fullProductName }}</td>
+          </tr>
+    </table>
   </div>
 </div>
