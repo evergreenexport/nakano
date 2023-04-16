@@ -1,13 +1,21 @@
 regions:
 
+- region: Northland
+  stores:
+    - name: Liquorland Whangarei Central
+      url: https://www.liquorland.co.nz/stores/north-island/northland/liquorland-whangarei-central
+
 - region: North Shore
   stores:
+
+    - name: Liquid Experience Takapuna
+      url: https://www.facebook.com/LiquidExperienceTakapuna/
 
     - name: Liquorland Albany
       url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-albany
 
     - name: Liquorland Devonport
-      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-northcross-devonport
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-devonport
       extraText: (umeshu only)
 
     - name: Liquorland Forrest Hill
@@ -22,6 +30,10 @@ regions:
     - name: Liquorland Northcross
       url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-northcross-browns-bay
       extraText: (Brown's Bay)
+
+    - name: Super Liquor Birkenhead
+      url: https://www.superliquor.co.nz/super-liquor-birkenhead
+      extraText: (umeshu only)
 
 
 - region: Auckland City
@@ -39,17 +51,20 @@ regions:
     - name: Liquorland Ponsonby
       url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-ponsonby
 
+    - name: Liquorland Remuera
+      url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-remuera
+
     - name: Liquorland Stonefields
       url: https://www.liquorland.co.nz/stores/north-island/auckland/liquorland-stonefields-lunn-ave
 
-    - name: Super Liquor Birkenhead
-      url: https://www.superliquor.co.nz/super-liquor-birkenhead
-      extraText: (umeshu only)
+
 
 - region: Waikato
   stores:
     - name: Cambridge Fine Wine
       url: https://www.facebook.com/profile.php?id=100063749220871
+    - name: Hamilton Beer & Wine Co
+      url: https://beerandwine.co.nz/
 
 
 - region: Bay of Plenty
@@ -151,7 +166,7 @@ regions:
       url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-cranford
 
     - name: Liquorland Riccarton
-      url: https://www.liquorland.co.nz/stores/riccarton/
+      url: https://www.liquorland.co.nz/stores/south-island/canterbury-/-christchurch/liquorland-riccarton
       extraText: (umeshu only)
 
     - name: Liquorland Rolleston Drive
@@ -189,7 +204,11 @@ regions:
       url: https://www.liquorland.co.nz/stores/south-island/otago/liquorland-city-centre
       extraText: (umeshu and gin)
 
-
+- region: Southland
+  stores:
+    - name: Liquorland Centrepoint
+      url: https://www.liquorland.co.nz/stores/south-island/otago/liquorland-centrepoint
+      extraText: (Invercargill)
 
 
 - region: Online
