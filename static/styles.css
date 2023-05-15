@@ -205,18 +205,30 @@ li{
   line-height: 1rem !important;
   font-size: 1rem;
   color: black;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  /* margin-left: 1rem; */
+  /* margin-right: 1rem; */
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   letter-spacing: 0.0125rem;
 }
 
-
-#desktop-nav a:hover{
-  text-decoration: underline;
+.desktop-nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
+.desktop-nav-item a:hover{
+
+}
+
+.desktop-social-icon{
+  margin-left: 1rem;
+  text-decoration: none !important;
+}
+
+.desktop-social-icon a:hover{
+  text-decoration: none !important;
+}
 
 #logo a:hover{
   color: #0B205F !important;
@@ -317,6 +329,10 @@ li{
   text-decoration: none;
 }
 
+.mobile-social-icons{
+  padding-top: 5rem;
+  background-color: red !important;
+}
 
 .c2a-btn{
   font-family: 'Lato', sans-serif;
