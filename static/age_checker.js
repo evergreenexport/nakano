@@ -36,7 +36,7 @@ noButton.addEventListener('click', noButtonClick);
 
 
 async function checkLocalStorage() {
-    await sleep(1500)
+    await sleep(150)
     // Check if we've checked the user's age before.
     if(!localStorage.getItem('ageChecked')) {
         checkAge();
