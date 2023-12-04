@@ -117,13 +117,13 @@ li{
 }
 
 .product-box{
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
 }
 
 .product-box p{
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .product-box a{
@@ -132,17 +132,12 @@ li{
   text-decoration: none;
 }
 
-.bottle{
-  margin-bottom: 0;
-  padding-bottom: 0;
-  /* background-color: pink;
-  opacity: 0.5; */
-}
+
 
 /* nudge the product name down */
 .product-name{
-  margin-top: 1.92rem;
-  padding-bottom: 0.08rem;
+  margin-top: 1.5rem;
+  /* padding-bottom: 0.08rem; */
   /* background-color: skyblue;
   opacity: 0.5; */
 }
@@ -186,7 +181,7 @@ li{
 
 .product-selection{
   margin-top: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .desktop-header{

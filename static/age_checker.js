@@ -51,10 +51,7 @@ async function checkLocalStorage() {
 function checkLastSession() {
     // Check if it's been more than 1 hour since the last age check
     var lastAgeCheck = localStorage.getItem('lastAgeCheck')
-    // console.log("last check: ", lastAgeCheck)
-    // console.log("current time: ", Date.now())
     timeDelta = Date.now() - lastAgeCheck
-    // console.log("time delta: ", timeDelta)
 
     // 1 hr = 3,600,000 milliseconds
     if (timeDelta > 3600000) {
