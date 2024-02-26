@@ -1,3 +1,7 @@
+body{
+  background-color: skyblue;
+}
+
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
   /* color: red; */
@@ -23,4 +27,16 @@ label, input, {
   font-family: 'Montserrat', sans-serif;
   background-color: dodgerblue;
   border: dodgerblue;
+}
+
+.content-box{
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  max-width: 360px !important;
+  ;
 }
