@@ -1,0 +1,50 @@
+[
+    {
+        "productId": 0,
+        "productName": "Nakano umeshu",
+        "imageName": "umeshu.png",
+        "price": 34.99
+    },
+    {
+        "productId": 1,
+        "productName": "honey umeshu",
+        "imageName": "honey.png",
+        "price": 35.99
+    },
+    {
+        "productId": 2,
+        "productName": "yuzu umeshu",
+        "imageName": "yuzu.png",
+        "price": 37.99
+    },
+    {
+        "productId": 3,
+        "productName": "nama chozo",
+        "imageName": "namachozo.png",
+        "price": 44.99
+    },
+    {
+        "productId": 4,
+        "productName": "nigori cloudy",
+        "imageName": "nigori.png",
+        "price": 49.99
+    },
+    {
+        "productId": 5,
+        "productName": "junmai ginjo",
+        "imageName": "ginjo.png",
+        "price": 54.99
+    },
+    {
+        "productId": 6,
+        "productName": "kozue",
+        "imageName": "kozue.png",
+        "price": 84.99
+    },
+    {
+        "productId": 7,
+        "productName": "ume syrup",
+        "imageName": "syrup.png",
+        "price": 32.99
+    }
+]
