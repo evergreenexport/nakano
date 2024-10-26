@@ -1,5 +1,5 @@
 async function redirect() {
-    await sleep(7000)
+    await sleep(9000)
     window.location.assign('https://www.nakano.nz/');
 }
 

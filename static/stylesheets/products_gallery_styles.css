@@ -14,9 +14,19 @@
 }
 
 .product-box{
-  margin-top: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 1.25rem;
+  padding-bottom: 1.5rem;
   text-align: center;
+}
+
+.product-box:hover{
+  /* .product-name {
+    text-decoration: underline;
+  } */
+  /* color: black;
+  text-decoration: underline;
+  cursor: pointer; */
+  /* background-color: lightgrey; */
 }
 
 .product-box p{
@@ -33,18 +43,28 @@
 
 /* nudge the product name down */
 .product-name {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  /* padding-bottom: 5rem; */
   /* padding-bottom: 0.08rem; */
   /* background-color: skyblue;
   opacity: 0.5; */
   /* color: red; */
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
 }
 
 .product-name a{
   /* line-height: 1.5rem !important; */
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: underline;
+
+}
+
+a .btn-outline-dark:hover{
+  color: white;
+}
+
+.gallery-price{
+    margin-top: 0.25rem;
 }
 
 .preview-text p{
@@ -53,6 +73,7 @@
   text-align: center;
   line-height: 1.25rem;
   text-decoration: none;
+  margin-top: 0.25rem;
   /* text-justify: auto; */
   /* margin-top: 0.54rem;
   padding-bottom: 0.46rem; */
@@ -74,4 +95,36 @@
 .product-selection{
   margin-top: 1rem;
   margin-bottom: 2.5rem;
+}
+
+
+.see-more-btn{
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: black;
+  background-color: white;
+  border-color: #0B205F;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid black;
+  padding: .25rem 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.0125rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+
+.see-more-btn:hover{
+  color: white !important;
+  background-color: black;
+  text-decoration: none;
 }

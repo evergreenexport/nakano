@@ -255,9 +255,17 @@ li{
 .footer{
   margin-top: 3.15rem;
   padding-bottom: 1.85rem;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+.footer a{
+  color: black;
+}
+
+.price{
+    font-family: 'Montserrat', sans-serif;
 }
 
 
