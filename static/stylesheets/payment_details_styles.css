@@ -1,0 +1,8 @@
+.copy-icon{
+  margin-top: 0.0625rem;
+}
+
+.copy-icon:hover{
+  color: hotpink;
+  cursor: pointer;
+}
