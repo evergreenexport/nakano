@@ -131,13 +131,20 @@
 <div class="row">
   <div class="col-12 col-md-8 col-lg-6 col-xl-5 col-xxl-4 mt-3">
     <h3>How to order</h3>
-    <p>Please submit the <a href="#order-form">order form below</a>.</p>
-    <p>We'll then send you an invoice with internet banking payment instructions.
-    We'll send your order by courier once payment has been received.</p>
-    <h3 class="mt-5">Shipping</h3>
     <p>
-      Standard delivery is included for orders of 3+ bottles.
+      Please email your order to: <a href="mailto:orders@nakano.nz">orders@nakano.nz</a>.
     </p>
+    <p>Please include:</p>
+    <ul>
+      <li>full name and delivery address</li>
+      <li>a declaration that you're over 18: "I declare I'm over 18 years of age"</li>
+    </ul>
+    <p>We'll then send you an invoice with internet banking payment instructions.
+    We'll send your order by courier once we've received payment.</p>
+    <h3 class="mt-5">Shipping</h3>
+
+    <p>Order 3 or more bottles and standard delivery is included.</p>
+
     <table class="table table-bordered table-responsive mb-5" style="font-size: 0.85rem;">
       <tbody>
         <tr class="">
@@ -162,130 +169,123 @@
         </tr>
       </tbody>
     </table>
-    <h3 id="mt-5">My order</h3>
-    <form class="" id="order-form"
- action="https://nakano-online-store-24f7fc79e1b0.herokuapp.com/new-order"
- method="post"
->
 
-  <div class="mb-4">
-    <label for="exampleFormControlTextarea1" class="form-label">
-      Order items
-    </label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-     placeholder="E.g. 3 x Nakano umeshu" name="orderItems" required></textarea>
-    <div id="order-items-help" class="form-text">
-      Please list the products and quantities you'd like to order.
-    </div>
-  </div>
-  <!-- <h5>Customer details</h5> -->
-<div class="mb-4">
-  <label for="exampleFormControlTextarea1" class="form-label">
-    Shipping
-  </label>
-  <select class="form-select mb-1" aria-label="Default select example"
-   name="shipping" required>
-    <option value="" selected disabled>select shipping option</option>
-    <option value="North Island standard">North Island standard (1-2 working days): $6.99</option>
-    <option value="South Island standard">South Island standard (3-4 working days): $8.99</option>
-    <option value="South Island express">South Island express (1-2 working days): $12.99</option>
-  </select>
-  <div id="shipping-help" class="form-text mb-3">
-    Standard shipping is included for orders of 3+ bottles.
-  </div>
-  <div class="form-check mb-5">
-    <input type="checkbox" class="form-check-input" id="ruralDelivery"
-     name="ruralDelivery" >
-    <label class="form-check-label" for="ruralDelivery">
-      my address is in a rural delivery area (+$4.99)
-    </label>
-  </div>
-</div>
+<!-- 
+<h3>Products and pricing</h3>
 
-  <div class="row mb-3">
-    <div class="col-6">
-      <label for="first-name" class="form-label">first name*</label>
-      <input type="text" class="form-control" id="first-name" required
-       aria-describedby="firstName" name="firstName" autocomplete="given-name">
-    </div>
-    <div class="col-6">
-      <label for="last-name" class="form-label">last name*</label>
-      <input type="text" class="form-control" id="last-name" required
-       aria-describedby="lastName" name="lastName" autocomplete="family-name">
-    </div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">email*</label>
-    <input type="email" class="form-control" id="email-address" required
-     aria-describedby="emailHelp" autocomplete="email" name="email">
-    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-  </div>
 
-  <!-- <h5>Delivery</h5> -->
-  <div class="row">
-    <div class="col-12 mb-3">
-      <label for="address1" class="form-label">street address*</label>
-      <input type="text" class="form-control" id="address1"
-       aria-describedby="street-address" name="address1"
-       autocomplete="address-level1" required>
-    </div>
-    <div class="col-12 mb-3">
-      <label for="address2" class="form-label">suburb</label>
-      <input type="text" class="form-control" id="address2"
-       aria-describedby="suburb" name="address2" autocomplete="address-level2">
-    </div>
-    <div class="col-8 mb-3">
-      <label for="city" class="form-label">city*</label>
-      <input type="text" class="form-control" id="city" required
-       aria-describedby="city" name="city">
-    </div>
-    <div class="col-4 mb-3">
-      <label for="postcode" class="form-label">postcode*</label>
-      <input type="text" class="form-control" id="postcode" required
-       aria-describedby="postcode" name="postcode" autocomplete="postal-code">
-    </div>
-    <div class="mb-4">
-      <label for="phone" class="form-label">mobile (optional)</label>
-      <input type="tel" class="form-control" id="phone" aria-describedby="phone"
-       autocomplete="phone" name="phone">
-    </div>
-  </div>
 
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="newReleasesOptIn" checked
-     name="newReleasesOptIn">
-    <label class="form-check-label" for="newReleasesOptIn">
-      I'm keen to hear about new releases
-    </label>
-  </div>
 
-  <div class="mb-4 form-check">
-    <input type="checkbox" class="form-check-input" id="over18CheckBox" required
-     name="over18CheckBox">
-    <label class="form-check-label" for="over18CheckBox">
-      I declare that I'm 18 years of age or over
-    </label>
-    <!-- <div class="invalid-feedback">
-      You must declare you are 18 years of age or older.
-    </div> -->
-  </div>
-  <div class="mb-3">
-    <i>
-      We'll send you an invoice with internet banking payment instructions.
-    </i>
-  </div>
-  <div class="row">
-      <div class="col-12 d-flex">
-        <button type="submit" class="btn btn-primary flex-grow-1">place order</button>
-      </div>
-      <!-- <div class="col-6">
 
-      </div> -->
+
+
+
+
+
+
+  <table class="table table-responsive table-striped align-middle">
+    <tbody>
+      <tr>
+        <th>sake</th>
+      </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/junmai-shu.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/junmai-shu/" target="_blank" style="color: black; text-decoration: none;">Junmai sake 720ml</a></td>
+          <td>$44.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/namachozo.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/namachozo/" target="_blank" style="color: black; text-decoration: none;">Namachozo junmai sake 720ml</a></td>
+          <td>$45.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/gohyaku.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/gohyakumangoku/" target="_blank" style="color: black; text-decoration: none;">Gohyakumangoku junmai sake 720ml</a></td>
+          <td>$45.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/ginjo.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/ginjo/" target="_blank" style="color: black; text-decoration: none;">Ginjō junmai sake 720ml</a></td>
+          <td>$54.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/ultra-white.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/ultra-white/" target="_blank" style="color: black; text-decoration: none;">Ultra junmai ginjo sake 720ml (white label)</a></td>
+          <td>$62.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/ultra-red.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/ultra-red/" target="_blank" style="color: black; text-decoration: none;">Ultra junmai-ginjo sake 720ml (red label)</a></td>
+          <td>$62.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/super-dry.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/ultra-super-dry/" target="_blank" style="color: black; text-decoration: none;">Ultra super dry junmai sake 720ml</a></td>
+          <td>$62.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/nigori.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/sake/cloudy/" target="_blank" style="color: black; text-decoration: none;">Nigori (cloudy) junmai sake 720ml</a></td>
+          <td>$59.99</td>
+        </tr>
+      
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/nakano-umeshu.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/nakano-umeshu/" target="_blank" style="color: black; text-decoration: none;">Nakano umeshu (plum wine) 720ml</a></td>
+          <td>$34.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/yuzu.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/yuzu/" target="_blank" style="color: black; text-decoration: none;">Yuzu umeshu 720ml</a></td>
+          <td>$36.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/honey.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/honey/" target="_blank" style="color: black; text-decoration: none;">Honey umeshu 720ml</a></td>
+          <td>$35.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/beninanko.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/ume-liqueur/" target="_blank" style="color: black; text-decoration: none;">Beninanko ume liqueur 720ml</a></td>
+          <td>$66.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/720ml-jar.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/umeshu-whole-ume-720ml/" target="_blank" style="color: black; text-decoration: none;">Umeshu with whole ume 720ml</a></td>
+          <td>$42.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/green-tea.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/green-tea/" target="_blank" style="color: black; text-decoration: none;">Green tea umeshu 720ml</a></td>
+          <td>$35.99</td>
+        </tr>
+      
+        <tr>
+          <td><img src="/static/images/gallery-images/shiso.jpg" alt="" style="max-height: 40px"></td>
+          <td><a href="../products/umeshu/shiso/" target="_blank" style="color: black; text-decoration: none;">Red shiso umeshu 720ml</a></td>
+          <td>$35.99</td>
+        </tr>
+      
+    </tbody>
+  </table>
+ -->
+
+
   </div>
-
-</form>
-
-</div>
 
 </div>
 <!-- <div class="row mt-3">
